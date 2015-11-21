@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<InputField name="Реквизит1" id="1">
+			<DataPath>Реквизит1</DataPath>
+			<ContextMenu name="Реквизит1КонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="Реквизит1РасширеннаяПодсказка" id="3"/>
+			<Events>
+				<Event name="StartChoice">Реквизит1НачалоВыбора</Event>
+			</Events>
+		</InputField>
+		<Table name="Таблица1" id="4">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Таблица1</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="Таблица1КонтекстноеМеню" id="5"/>
+			<AutoCommandBar name="Таблица1КоманднаяПанель" id="6"/>
+			<ExtendedTooltip name="Таблица1РасширеннаяПодсказка" id="7"/>
+			<SearchStringAddition name="Таблица1СтрокаПоиска" id="8">
+				<Source>
+					<lf:elementId>4</lf:elementId>
+					<lf:additionId>0</lf:additionId>
+				</Source>
+				<ContextMenu name="Таблица1СтрокаПоискаКонтекстноеМеню" id="9"/>
+				<ExtendedTooltip name="Таблица1СтрокаПоискаРасширеннаяПодсказка" id="10"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="Таблица1СостояниеПросмотра" id="11">
+				<Source>
+					<lf:elementId>4</lf:elementId>
+					<lf:additionId>1</lf:additionId>
+				</Source>
+				<ContextMenu name="Таблица1СостояниеПросмотраКонтекстноеМеню" id="12"/>
+				<ExtendedTooltip name="Таблица1СостояниеПросмотраРасширеннаяПодсказка" id="13"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="Таблица1УправлениеПоиском" id="14">
+				<Source>
+					<lf:elementId>4</lf:elementId>
+					<lf:additionId>2</lf:additionId>
+				</Source>
+				<ContextMenu name="Таблица1УправлениеПоискомКонтекстноеМеню" id="15"/>
+				<ExtendedTooltip name="Таблица1УправлениеПоискомРасширеннаяПодсказка" id="16"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<InputField name="Таблица1Справочник1" id="17">
+					<DataPath>Таблица1.Справочник1</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="Таблица1Справочник1КонтекстноеМеню" id="18"/>
+					<ExtendedTooltip name="Таблица1Справочник1РасширеннаяПодсказка" id="19"/>
+					<Events>
+						<Event name="StartChoice">Таблица1Справочник1НачалоВыбора</Event>
+					</Events>
+				</InputField>
+			</ChildItems>
+		</Table>
+		<InputField name="Реквизит2" id="20">
+			<DataPath>Реквизит2</DataPath>
+			<ContextMenu name="Реквизит2КонтекстноеМеню" id="21"/>
+			<ExtendedTooltip name="Реквизит2РасширеннаяПодсказка" id="22"/>
+			<Events>
+				<Event name="StartChoice">Реквизит2НачалоВыбора</Event>
+			</Events>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.ПрограммнаяРаботаСИнтерфейсом</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="Реквизит1" id="2">
+			<Type>
+				<v8:Type>cfg:CatalogRef.Справочник1</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Таблица1" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Таблица1</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Справочник1" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Справочник1</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Справочник1</v8:Type>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="Реквизит2" id="4">
+			<Type>
+				<v8:Type>cfg:CatalogRef.Справочник2</v8:Type>
+			</Type>
+		</Attribute>
+	</Attributes>
+</Form>

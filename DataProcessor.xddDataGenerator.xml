@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<DataProcessor uuid="e1898468-05dd-4cfd-add1-e805872912bc">
+		<InternalInfo>
+			<xr:GeneratedType name="DataProcessorObject.xddDataGenerator" category="Object">
+				<xr:TypeId>bed81d6b-01ec-4069-886d-f42406d06468</xr:TypeId>
+				<xr:ValueId>05a8f43d-f96c-40b1-b826-f6961eb70ae3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DataProcessorManager.xddDataGenerator" category="Manager">
+				<xr:TypeId>bfc340be-f6f4-4516-8ad8-8c301139bd84</xr:TypeId>
+				<xr:ValueId>1e4b1da7-1197-4744-a4a9-74e0cab83885</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>xddDataGenerator</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Генератор данных (вспомогательная обработка для проведения юнит тестирования)</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment>НЕ ПЕРЕНОСИТЬ В КОНФИГУРАЦИЮ ЗАКАЗЧИКА</Comment>
+			<UseStandardCommands>false</UseStandardCommands>
+			<DefaultForm/>
+			<AuxiliaryForm/>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<ExtendedPresentation/>
+			<Explanation/>
+		</Properties>
+		<ChildObjects>
+			<Template>ОбразецДанных</Template>
+			<Template>ЗаготовкаМакета</Template>
+		</ChildObjects>
+	</DataProcessor>
+</MetaDataObject>
