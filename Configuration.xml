@@ -126,6 +126,7 @@
 			<Report>СКД_ФиксированныйМакет</Report>
 			<Report>СКД_ВычислитьВыражение</Report>
 			<Report>СКД_СуммаПриПовторяющихсяЗаписях</Report>
+			<Report>СКД_ПрограммноеСозданиеЭлементов</Report>
 			<DataProcessor>xddEntryPoint</DataProcessor>
 			<DataProcessor>xddTestRunner</DataProcessor>
 			<DataProcessor>xddDecorator</DataProcessor>
@@ -142,6 +143,7 @@
 			<DataProcessor>РаботаСМетаданными</DataProcessor>
 			<DataProcessor>СтартерВнешнихОбработок</DataProcessor>
 			<DataProcessor>Использование_RegExp</DataProcessor>
+			<DataProcessor>СохранениеНастроекВФайл</DataProcessor>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
