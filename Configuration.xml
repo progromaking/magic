@@ -118,6 +118,8 @@
 			<CommonModule>ОтображениеДанных</CommonModule>
 			<CommonModule>Сериализация</CommonModule>
 			<CommonModule>РаботаСМетаданными</CommonModule>
+			<CommonModule>РаботаС_DOM_Объектами</CommonModule>
+			<CommonModule>РаботаСФайлами</CommonModule>
 			<Catalog>Справочник1</Catalog>
 			<Catalog>Справочник2</Catalog>
 			<Enum>ПеречислениеТест</Enum>
@@ -127,6 +129,7 @@
 			<Report>СКД_ВычислитьВыражение</Report>
 			<Report>СКД_СуммаПриПовторяющихсяЗаписях</Report>
 			<Report>СКД_ПрограммноеСозданиеЭлементов</Report>
+			<Report>СКД_Консоль</Report>
 			<DataProcessor>xddEntryPoint</DataProcessor>
 			<DataProcessor>xddTestRunner</DataProcessor>
 			<DataProcessor>xddDecorator</DataProcessor>

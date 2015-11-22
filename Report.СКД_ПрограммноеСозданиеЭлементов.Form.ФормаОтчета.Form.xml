@@ -44,6 +44,51 @@
 			<VerticalStretch>false</VerticalStretch>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="КомпоновщикНастроекПользовательскиеНастройкиРасширеннаяПодсказка" id="4"/>
+			<ChildItems>
+				<Table name="ТаблицаПользовательскихНастроек" id="10">
+					<Representation>Tree</Representation>
+					<Autofill>true</Autofill>
+					<HorizontalLines>false</HorizontalLines>
+					<UseAlternationRowColor>true</UseAlternationRowColor>
+					<InitialTreeView>ExpandAllLevels</InitialTreeView>
+					<EnableStartDrag>true</EnableStartDrag>
+					<EnableDrag>true</EnableDrag>
+					<DataPath>Отчет.SettingsComposer.UserSettings</DataPath>
+					<CommandSet>
+						<ExcludedCommand>HierarchicalList</ExcludedCommand>
+						<ExcludedCommand>Tree</ExcludedCommand>
+						<ExcludedCommand>List</ExcludedCommand>
+					</CommandSet>
+					<ViewMode>All</ViewMode>
+					<ContextMenu name="ТаблицаПользовательскихНастроекКонтекстноеМеню" id="11"/>
+					<AutoCommandBar name="ТаблицаПользовательскихНастроекКоманднаяПанель" id="12"/>
+					<ExtendedTooltip name="ТаблицаПользовательскихНастроекРасширеннаяПодсказка" id="13"/>
+					<SearchStringAddition name="ТаблицаПользовательскихНастроекСтрокаПоиска" id="14">
+						<Source>
+							<lf:elementId>10</lf:elementId>
+							<lf:additionId>0</lf:additionId>
+						</Source>
+						<ContextMenu name="ТаблицаПользовательскихНастроекСтрокаПоискаКонтекстноеМеню" id="15"/>
+						<ExtendedTooltip name="ТаблицаПользовательскихНастроекСтрокаПоискаРасширеннаяПодсказка" id="16"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="ТаблицаПользовательскихНастроекСостояниеПросмотра" id="17">
+						<Source>
+							<lf:elementId>10</lf:elementId>
+							<lf:additionId>1</lf:additionId>
+						</Source>
+						<ContextMenu name="ТаблицаПользовательскихНастроекСостояниеПросмотраКонтекстноеМеню" id="18"/>
+						<ExtendedTooltip name="ТаблицаПользовательскихНастроекСостояниеПросмотраРасширеннаяПодсказка" id="19"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="ТаблицаПользовательскихНастроекУправлениеПоиском" id="20">
+						<Source>
+							<lf:elementId>10</lf:elementId>
+							<lf:additionId>2</lf:additionId>
+						</Source>
+						<ContextMenu name="ТаблицаПользовательскихНастроекУправлениеПоискомКонтекстноеМеню" id="21"/>
+						<ExtendedTooltip name="ТаблицаПользовательскихНастроекУправлениеПоискомРасширеннаяПодсказка" id="22"/>
+					</SearchControlAddition>
+				</Table>
+			</ChildItems>
 		</UsualGroup>
 		<SpreadSheetDocumentField name="Результат" id="5">
 			<DataPath>Результат</DataPath>
