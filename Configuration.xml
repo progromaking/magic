@@ -131,8 +131,6 @@
 			<Report>СКД_ПрограммноеСозданиеЭлементов</Report>
 			<Report>СКД_Консоль</Report>
 			<Report>СКД_СменаКомпоновкиДанных_УФ</Report>
-			<Report>СКД_СменаКомпоновкиДанных_УФ</Report>
-			<Report>СКД_СменаКомпоновкиДанных_УФ</Report>
 			<Report>СКД_ФормаСНастройками</Report>
 			<Report>СКД_СуммаУдельныхВесов</Report>
 			<DataProcessor>xddEntryPoint</DataProcessor>
