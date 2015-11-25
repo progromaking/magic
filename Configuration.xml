@@ -120,6 +120,7 @@
 			<CommonModule>РаботаСМетаданными</CommonModule>
 			<CommonModule>РаботаС_DOM_Объектами</CommonModule>
 			<CommonModule>РаботаСФайлами</CommonModule>
+			<CommonModule>РаботаСоСтроками</CommonModule>
 			<Catalog>Справочник1</Catalog>
 			<Catalog>Справочник2</Catalog>
 			<Enum>ПеречислениеТест</Enum>
