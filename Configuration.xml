@@ -130,6 +130,8 @@
 			<Report>СКД_СуммаПриПовторяющихсяЗаписях</Report>
 			<Report>СКД_ПрограммноеСозданиеЭлементов</Report>
 			<Report>СКД_Консоль</Report>
+			<Report>СКД_ФормаСНастройками</Report>
+			<Report>СКД_СуммаУдельныхВесов</Report>
 			<DataProcessor>xddEntryPoint</DataProcessor>
 			<DataProcessor>xddTestRunner</DataProcessor>
 			<DataProcessor>xddDecorator</DataProcessor>
