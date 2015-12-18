@@ -189,8 +189,8 @@
 		<pictureSize>Stretch</pictureSize>
 		<zOrder>0</zOrder>
 		<object xmlns:d3p1="http://v8.1c.ru/8.2/data/chart" xsi:type="d3p1:Chart">
-			<d3p1:seriesCurId>81</d3p1:seriesCurId>
-			<d3p1:pointsCurId>160</d3p1:pointsCurId>
+			<d3p1:seriesCurId>85</d3p1:seriesCurId>
+			<d3p1:pointsCurId>168</d3p1:pointsCurId>
 			<d3p1:isSeriesDesign>true</d3p1:isSeriesDesign>
 			<d3p1:realSeriesCount>2</d3p1:realSeriesCount>
 			<d3p1:realSeriesData>
