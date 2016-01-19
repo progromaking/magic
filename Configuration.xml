@@ -153,6 +153,7 @@
 			<DataProcessor>СтартерВнешнихОбработок</DataProcessor>
 			<DataProcessor>Использование_RegExp</DataProcessor>
 			<DataProcessor>СохранениеНастроекВФайл</DataProcessor>
+			<DataProcessor>ОткрытиеФормыВыбораСОтбором_УФ</DataProcessor>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
