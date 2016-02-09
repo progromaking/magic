@@ -136,6 +136,7 @@
 			<Report>СКД_СменаКомпоновкиДанных_УФ</Report>
 			<Report>СКД_ФормаСНастройками</Report>
 			<Report>СКД_СуммаУдельныхВесов</Report>
+			<Report>СКД_ОткрытьОтчетИПередатьПараметры</Report>
 			<DataProcessor>xddEntryPoint</DataProcessor>
 			<DataProcessor>xddTestRunner</DataProcessor>
 			<DataProcessor>xddDecorator</DataProcessor>
