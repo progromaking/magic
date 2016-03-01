@@ -179,7 +179,7 @@
 			<DataProcessor>xddDataGenerator</DataProcessor>
 			<DataProcessor>xddMonitor</DataProcessor>
 			<DataProcessor>ПрограммнаяРаботаСИнтерфейсом</DataProcessor>
-			<DataProcessor>ОткрытиеНеглавнойФормыТекущейОбработки</DataProcessor>
+			<DataProcessor>ОткрытиеФормыОбработки</DataProcessor>
 			<DataProcessor>ОтображениеДанных</DataProcessor>
 			<DataProcessor>ПакетнаяПечать</DataProcessor>
 			<DataProcessor>Сериализация</DataProcessor>

@@ -11,10 +11,22 @@
 			</Button>
 		</ChildItems>
 	</AutoCommandBar>
+	<ChildItems>
+		<LabelDecoration name="Декорация1" id="3">
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Основная форма</v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu name="Декорация1КонтекстноеМеню" id="4"/>
+			<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="5"/>
+		</LabelDecoration>
+	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
 			<Type>
-				<v8:Type>cfg:DataProcessorObject.ОткрытиеНеглавнойФормыТекущейОбработки</v8:Type>
+				<v8:Type>cfg:DataProcessorObject.ОткрытиеФормыОбработки</v8:Type>
 			</Type>
 			<MainAttribute>true</MainAttribute>
 		</Attribute>
