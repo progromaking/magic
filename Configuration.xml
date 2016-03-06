@@ -190,6 +190,7 @@
 			<DataProcessor>Использование_RegExp</DataProcessor>
 			<DataProcessor>СохранениеНастроекВФайл</DataProcessor>
 			<DataProcessor>ОткрытиеФормыВыбораСОтбором_УФ</DataProcessor>
+			<DataProcessor>ДиалогВыбораФайлов</DataProcessor>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
