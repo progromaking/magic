@@ -154,6 +154,8 @@
 			<CommonModule>РаботаСоСтроками</CommonModule>
 			<CommonModule>РаботаСЭксель</CommonModule>
 			<CommonModule>РаботаСФормами</CommonModule>
+			<CommonModule>РаботаСДатойВременем</CommonModule>
+			<CommonModule>ПакетныйРежимКонфигуратора</CommonModule>
 			<CommonCommand>СтруктураПодчиненности</CommonCommand>
 			<CommonForm>СтруктураПодчиненности</CommonForm>
 			<Catalog>Справочник1</Catalog>
