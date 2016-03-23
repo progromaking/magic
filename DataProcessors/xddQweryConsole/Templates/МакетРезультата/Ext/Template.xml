@@ -182,10 +182,10 @@
 	<line width="1" gap="false">
 		<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
 	</line>
-	<font faceName="Arial" height="9" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
-	<font faceName="Arial" height="14" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
-	<font faceName="Arial" height="11" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
-	<font faceName="Arial" height="18" bold="false" italic="true" underline="true" strikeout="false" kind="Absolute" scale="100"/>
+	<font faceName="Arial" height="9" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute"/>
+	<font faceName="Arial" height="14" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute"/>
+	<font faceName="Arial" height="11" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute"/>
+	<font faceName="Arial" height="18" bold="false" italic="true" underline="true" strikeout="false" kind="Absolute"/>
 	<format>
 		<font>0</font>
 		<border>0</border>
