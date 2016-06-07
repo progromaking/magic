@@ -156,6 +156,10 @@
 			<CommonModule>РаботаСФормами</CommonModule>
 			<CommonModule>РаботаСДатойВременем</CommonModule>
 			<CommonModule>ПакетныйРежимКонфигуратора</CommonModule>
+			<CommonModule>РаботаСПочтой</CommonModule>
+			<CommonModule>РаботаСВнешнимиПрограммами</CommonModule>
+			<CommonModule>ПриемыРаботыСТиповымиКонфигурациями</CommonModule>
+			<CommonModule>ПриемыРазработки</CommonModule>
 			<CommonCommand>СтруктураПодчиненности</CommonCommand>
 			<CommonForm>СтруктураПодчиненности</CommonForm>
 			<Catalog>Справочник1</Catalog>
@@ -193,6 +197,7 @@
 			<DataProcessor>СохранениеНастроекВФайл</DataProcessor>
 			<DataProcessor>ОткрытиеФормыВыбораСОтбором_УФ</DataProcessor>
 			<DataProcessor>ДиалогВыбораФайлов</DataProcessor>
+			<DataProcessor>ОбработкаСтрокТЧ</DataProcessor>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
