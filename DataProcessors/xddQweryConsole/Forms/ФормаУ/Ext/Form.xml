@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -88,7 +88,6 @@
 									<SkipOnInput>false</SkipOnInput>
 									<Enabled>false</Enabled>
 									<CommandName>Form.Command.ОткрытьКонструкторЗапроса</CommandName>
-									<Parameter xsi:nil="true"/>
 									<Picture>
 										<xr:Ref>StdPicture.QueryWizard</xr:Ref>
 										<xr:LoadTransparent>true</xr:LoadTransparent>
@@ -106,7 +105,6 @@
 									<Representation>PictureAndText</Representation>
 									<SkipOnInput>false</SkipOnInput>
 									<CommandName>Form.Command.ВыполнитьЗапрос</CommandName>
-									<Parameter xsi:nil="true"/>
 									<TextColor>#000000</TextColor>
 									<Font ref="sys:DefaultGUIFont" height="9" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
 									<Picture>
@@ -128,7 +126,6 @@
 											<Type>CommandBarButton</Type>
 											<SkipOnInput>false</SkipOnInput>
 											<CommandName>Form.Command.ИнициализироватьДеревоЗапросов</CommandName>
-											<Parameter xsi:nil="true"/>
 											<Picture>
 												<xr:Ref>StdPicture.Document</xr:Ref>
 												<xr:LoadTransparent>true</xr:LoadTransparent>
@@ -145,7 +142,6 @@
 											<Type>CommandBarButton</Type>
 											<SkipOnInput>false</SkipOnInput>
 											<CommandName>Form.Command.ЗагрузитьФайлЗапросов</CommandName>
-											<Parameter xsi:nil="true"/>
 											<Picture>
 												<xr:Ref>StdPicture.OpenFile</xr:Ref>
 												<xr:LoadTransparent>true</xr:LoadTransparent>
@@ -162,7 +158,6 @@
 											<Type>CommandBarButton</Type>
 											<SkipOnInput>false</SkipOnInput>
 											<CommandName>Form.Command.СохранитьФайлЗапросов</CommandName>
-											<Parameter xsi:nil="true"/>
 											<Picture>
 												<xr:Ref>StdPicture.Write</xr:Ref>
 												<xr:LoadTransparent>true</xr:LoadTransparent>
@@ -179,7 +174,6 @@
 											<Type>CommandBarButton</Type>
 											<SkipOnInput>false</SkipOnInput>
 											<CommandName>Form.Command.СохранитьКак</CommandName>
-											<Parameter xsi:nil="true"/>
 											<Picture>
 												<xr:Abs>Picture.png</xr:Abs>
 												<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -190,7 +184,6 @@
 											<Type>CommandBarButton</Type>
 											<SkipOnInput>false</SkipOnInput>
 											<CommandName>Form.Command.ДобавитьЗапрос</CommandName>
-											<Parameter xsi:nil="true"/>
 											<Picture>
 												<xr:Ref>StdPicture.CreateListItem</xr:Ref>
 												<xr:LoadTransparent>true</xr:LoadTransparent>
@@ -201,7 +194,6 @@
 											<Type>CommandBarButton</Type>
 											<SkipOnInput>false</SkipOnInput>
 											<CommandName>Form.Command.СкопироватьЗапрос</CommandName>
-											<Parameter xsi:nil="true"/>
 											<Picture>
 												<xr:Ref>StdPicture.CloneListItem</xr:Ref>
 												<xr:LoadTransparent>true</xr:LoadTransparent>
@@ -212,7 +204,6 @@
 											<Type>CommandBarButton</Type>
 											<SkipOnInput>false</SkipOnInput>
 											<CommandName>Form.Command.ЗапросВверх</CommandName>
-											<Parameter xsi:nil="true"/>
 											<Picture>
 												<xr:Ref>StdPicture.MoveUp</xr:Ref>
 												<xr:LoadTransparent>true</xr:LoadTransparent>
@@ -223,7 +214,6 @@
 											<Type>CommandBarButton</Type>
 											<SkipOnInput>false</SkipOnInput>
 											<CommandName>Form.Command.ЗапросВниз</CommandName>
-											<Parameter xsi:nil="true"/>
 											<Picture>
 												<xr:Ref>StdPicture.MoveDown</xr:Ref>
 												<xr:LoadTransparent>true</xr:LoadTransparent>
@@ -234,7 +224,6 @@
 											<Type>CommandBarButton</Type>
 											<SkipOnInput>false</SkipOnInput>
 											<CommandName>Form.Command.КакПереподчинить</CommandName>
-											<Parameter xsi:nil="true"/>
 											<Picture>
 												<xr:Ref>StdPicture.MoveItem</xr:Ref>
 												<xr:LoadTransparent>true</xr:LoadTransparent>
@@ -245,7 +234,6 @@
 											<Type>CommandBarButton</Type>
 											<SkipOnInput>false</SkipOnInput>
 											<CommandName>Form.Command.УдалитьЗапрос</CommandName>
-											<Parameter xsi:nil="true"/>
 											<Picture>
 												<xr:Ref>StdPicture.Delete</xr:Ref>
 												<xr:LoadTransparent>true</xr:LoadTransparent>
@@ -276,26 +264,26 @@
 							</AutoCommandBar>
 							<ExtendedTooltip name="ДеревоЗапросовExtendedTooltip" id="132"/>
 							<SearchStringAddition name="ДеревоЗапросовСтрокаПоиска" id="191">
-								<Source>
-									<lf:elementId>5</lf:elementId>
-									<lf:additionId>0</lf:additionId>
-								</Source>
+								<AdditionSource>
+									<Item>ДеревоЗапросов</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
 								<ContextMenu name="ДеревоЗапросовСтрокаПоискаКонтекстноеМеню" id="192"/>
 								<ExtendedTooltip name="ДеревоЗапросовСтрокаПоискаРасширеннаяПодсказка" id="193"/>
 							</SearchStringAddition>
 							<ViewStatusAddition name="ДеревоЗапросовСостояниеПросмотра" id="194">
-								<Source>
-									<lf:elementId>5</lf:elementId>
-									<lf:additionId>1</lf:additionId>
-								</Source>
+								<AdditionSource>
+									<Item>ДеревоЗапросов</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
 								<ContextMenu name="ДеревоЗапросовСостояниеПросмотраКонтекстноеМеню" id="195"/>
 								<ExtendedTooltip name="ДеревоЗапросовСостояниеПросмотраРасширеннаяПодсказка" id="196"/>
 							</ViewStatusAddition>
 							<SearchControlAddition name="ДеревоЗапросовУправлениеПоиском" id="197">
-								<Source>
-									<lf:elementId>5</lf:elementId>
-									<lf:additionId>2</lf:additionId>
-								</Source>
+								<AdditionSource>
+									<Item>ДеревоЗапросов</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
 								<ContextMenu name="ДеревоЗапросовУправлениеПоискомКонтекстноеМеню" id="198"/>
 								<ExtendedTooltip name="ДеревоЗапросовУправлениеПоискомРасширеннаяПодсказка" id="199"/>
 							</SearchControlAddition>
@@ -387,7 +375,6 @@
 									<Representation>Picture</Representation>
 									<SkipOnInput>false</SkipOnInput>
 									<CommandName>Form.Command.СохранитьРезультат</CommandName>
-									<Parameter xsi:nil="true"/>
 									<Picture>
 										<xr:Abs>Picture.png</xr:Abs>
 										<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -438,7 +425,6 @@
 										<Type>CommandBarButton</Type>
 										<SkipOnInput>false</SkipOnInput>
 										<CommandName>Form.Command.ОткрытьКонструкторЗапроса</CommandName>
-										<Parameter xsi:nil="true"/>
 										<Picture>
 											<xr:Ref>StdPicture.QueryWizard</xr:Ref>
 											<xr:LoadTransparent>true</xr:LoadTransparent>
@@ -456,7 +442,6 @@
 										<Representation>PictureAndText</Representation>
 										<SkipOnInput>false</SkipOnInput>
 										<CommandName>Form.Command.ВыполнитьВыделение</CommandName>
-										<Parameter xsi:nil="true"/>
 										<Picture>
 											<xr:Abs>Picture.gif</xr:Abs>
 											<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -473,7 +458,6 @@
 										<Type>CommandBarButton</Type>
 										<Representation>PictureAndText</Representation>
 										<CommandName>Form.Command.ОчиститьТекстЗапроса</CommandName>
-										<Parameter xsi:nil="true"/>
 										<Picture>
 											<xr:Abs>Picture.bmp</xr:Abs>
 											<xr:LoadTransparent>true</xr:LoadTransparent>
@@ -560,44 +544,37 @@
 											<Button name="СписокПараметровДобавить" id="105">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Item.СписокПараметров.StandardCommand.Add</CommandName>
-												<Parameter xsi:nil="true"/>
 												<ExtendedTooltip name="СписокПараметровДобавитьExtendedTooltip" id="139"/>
 											</Button>
 											<Button name="СписокПараметровСкопировать" id="106">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Item.СписокПараметров.StandardCommand.Copy</CommandName>
-												<Parameter xsi:nil="true"/>
 												<ExtendedTooltip name="СписокПараметровСкопироватьExtendedTooltip" id="140"/>
 											</Button>
 											<Button name="СписокПараметровИзменить" id="107">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Item.СписокПараметров.StandardCommand.Change</CommandName>
-												<Parameter xsi:nil="true"/>
 												<ExtendedTooltip name="СписокПараметровИзменитьExtendedTooltip" id="141"/>
 											</Button>
 											<Button name="СписокПараметровУдалить" id="108">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Item.СписокПараметров.StandardCommand.Delete</CommandName>
-												<Parameter xsi:nil="true"/>
 												<ExtendedTooltip name="СписокПараметровУдалитьExtendedTooltip" id="142"/>
 											</Button>
 											<Button name="СписокПараметровЗакончитьРедактирование" id="109">
 												<Type>CommandBarButton</Type>
 												<OnlyInAllActions>true</OnlyInAllActions>
 												<CommandName>Form.Item.СписокПараметров.StandardCommand.EndEdit</CommandName>
-												<Parameter xsi:nil="true"/>
 												<ExtendedTooltip name="СписокПараметровЗакончитьРедактированиеExtendedTooltip" id="143"/>
 											</Button>
 											<Button name="СписокПараметровПереместитьВниз" id="111">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Item.СписокПараметров.StandardCommand.MoveDown</CommandName>
-												<Parameter xsi:nil="true"/>
 												<ExtendedTooltip name="СписокПараметровПереместитьВнизExtendedTooltip" id="144"/>
 											</Button>
 											<Button name="СписокПараметровПереместитьВверх" id="110">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Item.СписокПараметров.StandardCommand.MoveUp</CommandName>
-												<Parameter xsi:nil="true"/>
 												<ExtendedTooltip name="СписокПараметровПереместитьВверхExtendedTooltip" id="145"/>
 											</Button>
 											<Button name="ЗаполнитьПараметры" id="47">
@@ -605,7 +582,6 @@
 												<Representation>PictureAndText</Representation>
 												<SkipOnInput>false</SkipOnInput>
 												<CommandName>Form.Command.ЗаполнитьПараметры</CommandName>
-												<Parameter xsi:nil="true"/>
 												<Picture>
 													<xr:Abs>Picture.bmp</xr:Abs>
 													<xr:LoadTransparent>true</xr:LoadTransparent>
@@ -623,26 +599,26 @@
 									</AutoCommandBar>
 									<ExtendedTooltip name="СписокПараметровExtendedTooltip" id="148"/>
 									<SearchStringAddition name="СписокПараметровСтрокаПоиска" id="200">
-										<Source>
-											<lf:elementId>23</lf:elementId>
-											<lf:additionId>0</lf:additionId>
-										</Source>
+										<AdditionSource>
+											<Item>СписокПараметров</Item>
+											<Type>SearchStringRepresentation</Type>
+										</AdditionSource>
 										<ContextMenu name="СписокПараметровСтрокаПоискаКонтекстноеМеню" id="201"/>
 										<ExtendedTooltip name="СписокПараметровСтрокаПоискаРасширеннаяПодсказка" id="202"/>
 									</SearchStringAddition>
 									<ViewStatusAddition name="СписокПараметровСостояниеПросмотра" id="203">
-										<Source>
-											<lf:elementId>23</lf:elementId>
-											<lf:additionId>1</lf:additionId>
-										</Source>
+										<AdditionSource>
+											<Item>СписокПараметров</Item>
+											<Type>ViewStatusRepresentation</Type>
+										</AdditionSource>
 										<ContextMenu name="СписокПараметровСостояниеПросмотраКонтекстноеМеню" id="204"/>
 										<ExtendedTooltip name="СписокПараметровСостояниеПросмотраРасширеннаяПодсказка" id="205"/>
 									</ViewStatusAddition>
 									<SearchControlAddition name="СписокПараметровУправлениеПоиском" id="206">
-										<Source>
-											<lf:elementId>23</lf:elementId>
-											<lf:additionId>2</lf:additionId>
-										</Source>
+										<AdditionSource>
+											<Item>СписокПараметров</Item>
+											<Type>SearchControl</Type>
+										</AdditionSource>
 										<ContextMenu name="СписокПараметровУправлениеПоискомКонтекстноеМеню" id="207"/>
 										<ExtendedTooltip name="СписокПараметровУправлениеПоискомРасширеннаяПодсказка" id="208"/>
 									</SearchControlAddition>
@@ -737,19 +713,16 @@
 											<Button name="СписокОсобыхПараметровДобавить" id="100">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Item.СписокОсобыхПараметров.StandardCommand.Add</CommandName>
-												<Parameter xsi:nil="true"/>
 												<ExtendedTooltip name="СписокОсобыхПараметровДобавитьExtendedTooltip" id="153"/>
 											</Button>
 											<Button name="СписокОсобыхПараметровСкопировать" id="101">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Item.СписокОсобыхПараметров.StandardCommand.Copy</CommandName>
-												<Parameter xsi:nil="true"/>
 												<ExtendedTooltip name="СписокОсобыхПараметровСкопироватьExtendedTooltip" id="154"/>
 											</Button>
 											<Button name="СписокОсобыхПараметровРедактироватьОсобыйТипПараметра" id="91">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.РедактироватьОсобыйТипПараметра</CommandName>
-												<Parameter xsi:nil="true"/>
 												<Picture>
 													<xr:Ref>StdPicture.Change</xr:Ref>
 													<xr:LoadTransparent>true</xr:LoadTransparent>
@@ -765,26 +738,22 @@
 											<Button name="СписокОсобыхПараметровУдалить" id="102">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Item.СписокОсобыхПараметров.StandardCommand.Delete</CommandName>
-												<Parameter xsi:nil="true"/>
 												<ExtendedTooltip name="СписокОсобыхПараметровУдалитьExtendedTooltip" id="156"/>
 											</Button>
 											<Button name="СписокОсобыхПараметровПереместитьВниз" id="104">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Item.СписокОсобыхПараметров.StandardCommand.MoveDown</CommandName>
-												<Parameter xsi:nil="true"/>
 												<ExtendedTooltip name="СписокОсобыхПараметровПереместитьВнизExtendedTooltip" id="157"/>
 											</Button>
 											<Button name="СписокОсобыхПараметровПереместитьВверх" id="103">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Item.СписокОсобыхПараметров.StandardCommand.MoveUp</CommandName>
-												<Parameter xsi:nil="true"/>
 												<ExtendedTooltip name="СписокОсобыхПараметровПереместитьВверхExtendedTooltip" id="158"/>
 											</Button>
 											<Button name="СписокОсобыхПараметровВыполнитьЗапрос" id="113">
 												<Type>CommandBarButton</Type>
 												<Representation>PictureAndText</Representation>
 												<CommandName>Form.Command.ВыполнитьЗапрос</CommandName>
-												<Parameter xsi:nil="true"/>
 												<Picture>
 													<xr:Ref>StdPicture.GenerateReport</xr:Ref>
 													<xr:LoadTransparent>true</xr:LoadTransparent>
@@ -801,26 +770,26 @@
 									</AutoCommandBar>
 									<ExtendedTooltip name="СписокОсобыхПараметровExtendedTooltip" id="160"/>
 									<SearchStringAddition name="СписокОсобыхПараметровСтрокаПоиска" id="209">
-										<Source>
-											<lf:elementId>78</lf:elementId>
-											<lf:additionId>0</lf:additionId>
-										</Source>
+										<AdditionSource>
+											<Item>СписокОсобыхПараметров</Item>
+											<Type>SearchStringRepresentation</Type>
+										</AdditionSource>
 										<ContextMenu name="СписокОсобыхПараметровСтрокаПоискаКонтекстноеМеню" id="210"/>
 										<ExtendedTooltip name="СписокОсобыхПараметровСтрокаПоискаРасширеннаяПодсказка" id="211"/>
 									</SearchStringAddition>
 									<ViewStatusAddition name="СписокОсобыхПараметровСостояниеПросмотра" id="212">
-										<Source>
-											<lf:elementId>78</lf:elementId>
-											<lf:additionId>1</lf:additionId>
-										</Source>
+										<AdditionSource>
+											<Item>СписокОсобыхПараметров</Item>
+											<Type>ViewStatusRepresentation</Type>
+										</AdditionSource>
 										<ContextMenu name="СписокОсобыхПараметровСостояниеПросмотраКонтекстноеМеню" id="213"/>
 										<ExtendedTooltip name="СписокОсобыхПараметровСостояниеПросмотраРасширеннаяПодсказка" id="214"/>
 									</ViewStatusAddition>
 									<SearchControlAddition name="СписокОсобыхПараметровУправлениеПоиском" id="215">
-										<Source>
-											<lf:elementId>78</lf:elementId>
-											<lf:additionId>2</lf:additionId>
-										</Source>
+										<AdditionSource>
+											<Item>СписокОсобыхПараметров</Item>
+											<Type>SearchControl</Type>
+										</AdditionSource>
 										<ContextMenu name="СписокОсобыхПараметровУправлениеПоискомКонтекстноеМеню" id="216"/>
 										<ExtendedTooltip name="СписокОсобыхПараметровУправлениеПоискомРасширеннаяПодсказка" id="217"/>
 									</SearchControlAddition>
@@ -963,7 +932,6 @@
 								<Button name="ОчиститьРезультат" id="67">
 									<Type>UsualButton</Type>
 									<CommandName>Form.Command.ОчиститьРезультат</CommandName>
-									<Parameter xsi:nil="true"/>
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>

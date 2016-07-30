@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
 	<CommandBarLocation>Bottom</CommandBarLocation>
 	<VerticalScroll>useIfNecessary</VerticalScroll>
 	<ReportResult/>
@@ -31,26 +31,26 @@
 			<AutoCommandBar name="СтруктураКоманднаяПанель" id="3"/>
 			<ExtendedTooltip name="СтруктураРасширеннаяПодсказка" id="124"/>
 			<SearchStringAddition name="СтруктураСтрокаПоиска" id="125">
-				<Source>
-					<lf:elementId>1</lf:elementId>
-					<lf:additionId>0</lf:additionId>
-				</Source>
+				<AdditionSource>
+					<Item>Структура</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
 				<ContextMenu name="СтруктураСтрокаПоискаКонтекстноеМеню" id="126"/>
 				<ExtendedTooltip name="СтруктураСтрокаПоискаРасширеннаяПодсказка" id="127"/>
 			</SearchStringAddition>
 			<ViewStatusAddition name="СтруктураСостояниеПросмотра" id="128">
-				<Source>
-					<lf:elementId>1</lf:elementId>
-					<lf:additionId>1</lf:additionId>
-				</Source>
+				<AdditionSource>
+					<Item>Структура</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
 				<ContextMenu name="СтруктураСостояниеПросмотраКонтекстноеМеню" id="129"/>
 				<ExtendedTooltip name="СтруктураСостояниеПросмотраРасширеннаяПодсказка" id="130"/>
 			</ViewStatusAddition>
 			<SearchControlAddition name="СтруктураУправлениеПоиском" id="131">
-				<Source>
-					<lf:elementId>1</lf:elementId>
-					<lf:additionId>2</lf:additionId>
-				</Source>
+				<AdditionSource>
+					<Item>Структура</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
 				<ContextMenu name="СтруктураУправлениеПоискомКонтекстноеМеню" id="132"/>
 				<ExtendedTooltip name="СтруктураУправлениеПоискомРасширеннаяПодсказка" id="133"/>
 			</SearchControlAddition>
@@ -89,26 +89,26 @@
 							<AutoCommandBar name="ПараметрыДанныхКоманднаяПанель" id="8"/>
 							<ExtendedTooltip name="ПараметрыДанныхРасширеннаяПодсказка" id="136"/>
 							<SearchStringAddition name="ПараметрыДанныхСтрокаПоиска" id="137">
-								<Source>
-									<lf:elementId>6</lf:elementId>
-									<lf:additionId>0</lf:additionId>
-								</Source>
+								<AdditionSource>
+									<Item>ПараметрыДанных</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
 								<ContextMenu name="ПараметрыДанныхСтрокаПоискаКонтекстноеМеню" id="138"/>
 								<ExtendedTooltip name="ПараметрыДанныхСтрокаПоискаРасширеннаяПодсказка" id="139"/>
 							</SearchStringAddition>
 							<ViewStatusAddition name="ПараметрыДанныхСостояниеПросмотра" id="140">
-								<Source>
-									<lf:elementId>6</lf:elementId>
-									<lf:additionId>1</lf:additionId>
-								</Source>
+								<AdditionSource>
+									<Item>ПараметрыДанных</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
 								<ContextMenu name="ПараметрыДанныхСостояниеПросмотраКонтекстноеМеню" id="141"/>
 								<ExtendedTooltip name="ПараметрыДанныхСостояниеПросмотраРасширеннаяПодсказка" id="142"/>
 							</ViewStatusAddition>
 							<SearchControlAddition name="ПараметрыДанныхУправлениеПоиском" id="143">
-								<Source>
-									<lf:elementId>6</lf:elementId>
-									<lf:additionId>2</lf:additionId>
-								</Source>
+								<AdditionSource>
+									<Item>ПараметрыДанных</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
 								<ContextMenu name="ПараметрыДанныхУправлениеПоискомКонтекстноеМеню" id="144"/>
 								<ExtendedTooltip name="ПараметрыДанныхУправлениеПоискомРасширеннаяПодсказка" id="145"/>
 							</SearchControlAddition>
@@ -143,26 +143,26 @@
 							<AutoCommandBar name="ПользовательскиеПоляКоманднаяПанель" id="12"/>
 							<ExtendedTooltip name="ПользовательскиеПоляРасширеннаяПодсказка" id="147"/>
 							<SearchStringAddition name="ПользовательскиеПоляСтрокаПоиска" id="148">
-								<Source>
-									<lf:elementId>10</lf:elementId>
-									<lf:additionId>0</lf:additionId>
-								</Source>
+								<AdditionSource>
+									<Item>ПользовательскиеПоля</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
 								<ContextMenu name="ПользовательскиеПоляСтрокаПоискаКонтекстноеМеню" id="149"/>
 								<ExtendedTooltip name="ПользовательскиеПоляСтрокаПоискаРасширеннаяПодсказка" id="150"/>
 							</SearchStringAddition>
 							<ViewStatusAddition name="ПользовательскиеПоляСостояниеПросмотра" id="151">
-								<Source>
-									<lf:elementId>10</lf:elementId>
-									<lf:additionId>1</lf:additionId>
-								</Source>
+								<AdditionSource>
+									<Item>ПользовательскиеПоля</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
 								<ContextMenu name="ПользовательскиеПоляСостояниеПросмотраКонтекстноеМеню" id="152"/>
 								<ExtendedTooltip name="ПользовательскиеПоляСостояниеПросмотраРасширеннаяПодсказка" id="153"/>
 							</ViewStatusAddition>
 							<SearchControlAddition name="ПользовательскиеПоляУправлениеПоиском" id="154">
-								<Source>
-									<lf:elementId>10</lf:elementId>
-									<lf:additionId>2</lf:additionId>
-								</Source>
+								<AdditionSource>
+									<Item>ПользовательскиеПоля</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
 								<ContextMenu name="ПользовательскиеПоляУправлениеПоискомКонтекстноеМеню" id="155"/>
 								<ExtendedTooltip name="ПользовательскиеПоляУправлениеПоискомРасширеннаяПодсказка" id="156"/>
 							</SearchControlAddition>
@@ -210,26 +210,26 @@
 											<AutoCommandBar name="ДоступныеПоляГруппировкиКоманднаяПанель" id="18"/>
 											<ExtendedTooltip name="ДоступныеПоляГруппировкиРасширеннаяПодсказка" id="160"/>
 											<SearchStringAddition name="ДоступныеПоляГруппировкиСтрокаПоиска" id="161">
-												<Source>
-													<lf:elementId>16</lf:elementId>
-													<lf:additionId>0</lf:additionId>
-												</Source>
+												<AdditionSource>
+													<Item>ДоступныеПоляГруппировки</Item>
+													<Type>SearchStringRepresentation</Type>
+												</AdditionSource>
 												<ContextMenu name="ДоступныеПоляГруппировкиСтрокаПоискаКонтекстноеМеню" id="162"/>
 												<ExtendedTooltip name="ДоступныеПоляГруппировкиСтрокаПоискаРасширеннаяПодсказка" id="163"/>
 											</SearchStringAddition>
 											<ViewStatusAddition name="ДоступныеПоляГруппировкиСостояниеПросмотра" id="164">
-												<Source>
-													<lf:elementId>16</lf:elementId>
-													<lf:additionId>1</lf:additionId>
-												</Source>
+												<AdditionSource>
+													<Item>ДоступныеПоляГруппировки</Item>
+													<Type>ViewStatusRepresentation</Type>
+												</AdditionSource>
 												<ContextMenu name="ДоступныеПоляГруппировкиСостояниеПросмотраКонтекстноеМеню" id="165"/>
 												<ExtendedTooltip name="ДоступныеПоляГруппировкиСостояниеПросмотраРасширеннаяПодсказка" id="166"/>
 											</ViewStatusAddition>
 											<SearchControlAddition name="ДоступныеПоляГруппировкиУправлениеПоиском" id="167">
-												<Source>
-													<lf:elementId>16</lf:elementId>
-													<lf:additionId>2</lf:additionId>
-												</Source>
+												<AdditionSource>
+													<Item>ДоступныеПоляГруппировки</Item>
+													<Type>SearchControl</Type>
+												</AdditionSource>
 												<ContextMenu name="ДоступныеПоляГруппировкиУправлениеПоискомКонтекстноеМеню" id="168"/>
 												<ExtendedTooltip name="ДоступныеПоляГруппировкиУправлениеПоискомРасширеннаяПодсказка" id="169"/>
 											</SearchControlAddition>
@@ -248,26 +248,26 @@
 											<AutoCommandBar name="ПоляГруппировкиКоманднаяПанель" id="21"/>
 											<ExtendedTooltip name="ПоляГруппировкиРасширеннаяПодсказка" id="170"/>
 											<SearchStringAddition name="ПоляГруппировкиСтрокаПоиска" id="171">
-												<Source>
-													<lf:elementId>19</lf:elementId>
-													<lf:additionId>0</lf:additionId>
-												</Source>
+												<AdditionSource>
+													<Item>ПоляГруппировки</Item>
+													<Type>SearchStringRepresentation</Type>
+												</AdditionSource>
 												<ContextMenu name="ПоляГруппировкиСтрокаПоискаКонтекстноеМеню" id="172"/>
 												<ExtendedTooltip name="ПоляГруппировкиСтрокаПоискаРасширеннаяПодсказка" id="173"/>
 											</SearchStringAddition>
 											<ViewStatusAddition name="ПоляГруппировкиСостояниеПросмотра" id="174">
-												<Source>
-													<lf:elementId>19</lf:elementId>
-													<lf:additionId>1</lf:additionId>
-												</Source>
+												<AdditionSource>
+													<Item>ПоляГруппировки</Item>
+													<Type>ViewStatusRepresentation</Type>
+												</AdditionSource>
 												<ContextMenu name="ПоляГруппировкиСостояниеПросмотраКонтекстноеМеню" id="175"/>
 												<ExtendedTooltip name="ПоляГруппировкиСостояниеПросмотраРасширеннаяПодсказка" id="176"/>
 											</ViewStatusAddition>
 											<SearchControlAddition name="ПоляГруппировкиУправлениеПоиском" id="177">
-												<Source>
-													<lf:elementId>19</lf:elementId>
-													<lf:additionId>2</lf:additionId>
-												</Source>
+												<AdditionSource>
+													<Item>ПоляГруппировки</Item>
+													<Type>SearchControl</Type>
+												</AdditionSource>
 												<ContextMenu name="ПоляГруппировкиУправлениеПоискомКонтекстноеМеню" id="178"/>
 												<ExtendedTooltip name="ПоляГруппировкиУправлениеПоискомРасширеннаяПодсказка" id="179"/>
 											</SearchControlAddition>
@@ -355,26 +355,26 @@
 											<AutoCommandBar name="ДоступныеПоляВыбораКоманднаяПанель" id="32"/>
 											<ExtendedTooltip name="ДоступныеПоляВыбораРасширеннаяПодсказка" id="186"/>
 											<SearchStringAddition name="ДоступныеПоляВыбораСтрокаПоиска" id="187">
-												<Source>
-													<lf:elementId>30</lf:elementId>
-													<lf:additionId>0</lf:additionId>
-												</Source>
+												<AdditionSource>
+													<Item>ДоступныеПоляВыбора</Item>
+													<Type>SearchStringRepresentation</Type>
+												</AdditionSource>
 												<ContextMenu name="ДоступныеПоляВыбораСтрокаПоискаКонтекстноеМеню" id="188"/>
 												<ExtendedTooltip name="ДоступныеПоляВыбораСтрокаПоискаРасширеннаяПодсказка" id="189"/>
 											</SearchStringAddition>
 											<ViewStatusAddition name="ДоступныеПоляВыбораСостояниеПросмотра" id="190">
-												<Source>
-													<lf:elementId>30</lf:elementId>
-													<lf:additionId>1</lf:additionId>
-												</Source>
+												<AdditionSource>
+													<Item>ДоступныеПоляВыбора</Item>
+													<Type>ViewStatusRepresentation</Type>
+												</AdditionSource>
 												<ContextMenu name="ДоступныеПоляВыбораСостояниеПросмотраКонтекстноеМеню" id="191"/>
 												<ExtendedTooltip name="ДоступныеПоляВыбораСостояниеПросмотраРасширеннаяПодсказка" id="192"/>
 											</ViewStatusAddition>
 											<SearchControlAddition name="ДоступныеПоляВыбораУправлениеПоиском" id="193">
-												<Source>
-													<lf:elementId>30</lf:elementId>
-													<lf:additionId>2</lf:additionId>
-												</Source>
+												<AdditionSource>
+													<Item>ДоступныеПоляВыбора</Item>
+													<Type>SearchControl</Type>
+												</AdditionSource>
 												<ContextMenu name="ДоступныеПоляВыбораУправлениеПоискомКонтекстноеМеню" id="194"/>
 												<ExtendedTooltip name="ДоступныеПоляВыбораУправлениеПоискомРасширеннаяПодсказка" id="195"/>
 											</SearchControlAddition>
@@ -394,26 +394,26 @@
 											<AutoCommandBar name="ПоляВыбораКоманднаяПанель" id="35"/>
 											<ExtendedTooltip name="ПоляВыбораРасширеннаяПодсказка" id="196"/>
 											<SearchStringAddition name="ПоляВыбораСтрокаПоиска" id="197">
-												<Source>
-													<lf:elementId>33</lf:elementId>
-													<lf:additionId>0</lf:additionId>
-												</Source>
+												<AdditionSource>
+													<Item>ПоляВыбора</Item>
+													<Type>SearchStringRepresentation</Type>
+												</AdditionSource>
 												<ContextMenu name="ПоляВыбораСтрокаПоискаКонтекстноеМеню" id="198"/>
 												<ExtendedTooltip name="ПоляВыбораСтрокаПоискаРасширеннаяПодсказка" id="199"/>
 											</SearchStringAddition>
 											<ViewStatusAddition name="ПоляВыбораСостояниеПросмотра" id="200">
-												<Source>
-													<lf:elementId>33</lf:elementId>
-													<lf:additionId>1</lf:additionId>
-												</Source>
+												<AdditionSource>
+													<Item>ПоляВыбора</Item>
+													<Type>ViewStatusRepresentation</Type>
+												</AdditionSource>
 												<ContextMenu name="ПоляВыбораСостояниеПросмотраКонтекстноеМеню" id="201"/>
 												<ExtendedTooltip name="ПоляВыбораСостояниеПросмотраРасширеннаяПодсказка" id="202"/>
 											</ViewStatusAddition>
 											<SearchControlAddition name="ПоляВыбораУправлениеПоиском" id="203">
-												<Source>
-													<lf:elementId>33</lf:elementId>
-													<lf:additionId>2</lf:additionId>
-												</Source>
+												<AdditionSource>
+													<Item>ПоляВыбора</Item>
+													<Type>SearchControl</Type>
+												</AdditionSource>
 												<ContextMenu name="ПоляВыбораУправлениеПоискомКонтекстноеМеню" id="204"/>
 												<ExtendedTooltip name="ПоляВыбораУправлениеПоискомРасширеннаяПодсказка" id="205"/>
 											</SearchControlAddition>
@@ -552,26 +552,26 @@
 											<AutoCommandBar name="ДоступныеПоляОтбораКоманднаяПанель" id="53"/>
 											<ExtendedTooltip name="ДоступныеПоляОтбораРасширеннаяПодсказка" id="216"/>
 											<SearchStringAddition name="ДоступныеПоляОтбораСтрокаПоиска" id="217">
-												<Source>
-													<lf:elementId>51</lf:elementId>
-													<lf:additionId>0</lf:additionId>
-												</Source>
+												<AdditionSource>
+													<Item>ДоступныеПоляОтбора</Item>
+													<Type>SearchStringRepresentation</Type>
+												</AdditionSource>
 												<ContextMenu name="ДоступныеПоляОтбораСтрокаПоискаКонтекстноеМеню" id="218"/>
 												<ExtendedTooltip name="ДоступныеПоляОтбораСтрокаПоискаРасширеннаяПодсказка" id="219"/>
 											</SearchStringAddition>
 											<ViewStatusAddition name="ДоступныеПоляОтбораСостояниеПросмотра" id="220">
-												<Source>
-													<lf:elementId>51</lf:elementId>
-													<lf:additionId>1</lf:additionId>
-												</Source>
+												<AdditionSource>
+													<Item>ДоступныеПоляОтбора</Item>
+													<Type>ViewStatusRepresentation</Type>
+												</AdditionSource>
 												<ContextMenu name="ДоступныеПоляОтбораСостояниеПросмотраКонтекстноеМеню" id="221"/>
 												<ExtendedTooltip name="ДоступныеПоляОтбораСостояниеПросмотраРасширеннаяПодсказка" id="222"/>
 											</ViewStatusAddition>
 											<SearchControlAddition name="ДоступныеПоляОтбораУправлениеПоиском" id="223">
-												<Source>
-													<lf:elementId>51</lf:elementId>
-													<lf:additionId>2</lf:additionId>
-												</Source>
+												<AdditionSource>
+													<Item>ДоступныеПоляОтбора</Item>
+													<Type>SearchControl</Type>
+												</AdditionSource>
 												<ContextMenu name="ДоступныеПоляОтбораУправлениеПоискомКонтекстноеМеню" id="224"/>
 												<ExtendedTooltip name="ДоступныеПоляОтбораУправлениеПоискомРасширеннаяПодсказка" id="225"/>
 											</SearchControlAddition>
@@ -593,26 +593,26 @@
 											<AutoCommandBar name="ОтборКоманднаяПанель" id="56"/>
 											<ExtendedTooltip name="ОтборРасширеннаяПодсказка" id="226"/>
 											<SearchStringAddition name="ОтборСтрокаПоиска" id="227">
-												<Source>
-													<lf:elementId>54</lf:elementId>
-													<lf:additionId>0</lf:additionId>
-												</Source>
+												<AdditionSource>
+													<Item>Отбор</Item>
+													<Type>SearchStringRepresentation</Type>
+												</AdditionSource>
 												<ContextMenu name="ОтборСтрокаПоискаКонтекстноеМеню" id="228"/>
 												<ExtendedTooltip name="ОтборСтрокаПоискаРасширеннаяПодсказка" id="229"/>
 											</SearchStringAddition>
 											<ViewStatusAddition name="ОтборСостояниеПросмотра" id="230">
-												<Source>
-													<lf:elementId>54</lf:elementId>
-													<lf:additionId>1</lf:additionId>
-												</Source>
+												<AdditionSource>
+													<Item>Отбор</Item>
+													<Type>ViewStatusRepresentation</Type>
+												</AdditionSource>
 												<ContextMenu name="ОтборСостояниеПросмотраКонтекстноеМеню" id="231"/>
 												<ExtendedTooltip name="ОтборСостояниеПросмотраРасширеннаяПодсказка" id="232"/>
 											</ViewStatusAddition>
 											<SearchControlAddition name="ОтборУправлениеПоиском" id="233">
-												<Source>
-													<lf:elementId>54</lf:elementId>
-													<lf:additionId>2</lf:additionId>
-												</Source>
+												<AdditionSource>
+													<Item>Отбор</Item>
+													<Type>SearchControl</Type>
+												</AdditionSource>
 												<ContextMenu name="ОтборУправлениеПоискомКонтекстноеМеню" id="234"/>
 												<ExtendedTooltip name="ОтборУправлениеПоискомРасширеннаяПодсказка" id="235"/>
 											</SearchControlAddition>
@@ -751,26 +751,26 @@
 											<AutoCommandBar name="ДоступныеПоляПорядкаКоманднаяПанель" id="74"/>
 											<ExtendedTooltip name="ДоступныеПоляПорядкаРасширеннаяПодсказка" id="246"/>
 											<SearchStringAddition name="ДоступныеПоляПорядкаСтрокаПоиска" id="247">
-												<Source>
-													<lf:elementId>72</lf:elementId>
-													<lf:additionId>0</lf:additionId>
-												</Source>
+												<AdditionSource>
+													<Item>ДоступныеПоляПорядка</Item>
+													<Type>SearchStringRepresentation</Type>
+												</AdditionSource>
 												<ContextMenu name="ДоступныеПоляПорядкаСтрокаПоискаКонтекстноеМеню" id="248"/>
 												<ExtendedTooltip name="ДоступныеПоляПорядкаСтрокаПоискаРасширеннаяПодсказка" id="249"/>
 											</SearchStringAddition>
 											<ViewStatusAddition name="ДоступныеПоляПорядкаСостояниеПросмотра" id="250">
-												<Source>
-													<lf:elementId>72</lf:elementId>
-													<lf:additionId>1</lf:additionId>
-												</Source>
+												<AdditionSource>
+													<Item>ДоступныеПоляПорядка</Item>
+													<Type>ViewStatusRepresentation</Type>
+												</AdditionSource>
 												<ContextMenu name="ДоступныеПоляПорядкаСостояниеПросмотраКонтекстноеМеню" id="251"/>
 												<ExtendedTooltip name="ДоступныеПоляПорядкаСостояниеПросмотраРасширеннаяПодсказка" id="252"/>
 											</ViewStatusAddition>
 											<SearchControlAddition name="ДоступныеПоляПорядкаУправлениеПоиском" id="253">
-												<Source>
-													<lf:elementId>72</lf:elementId>
-													<lf:additionId>2</lf:additionId>
-												</Source>
+												<AdditionSource>
+													<Item>ДоступныеПоляПорядка</Item>
+													<Type>SearchControl</Type>
+												</AdditionSource>
 												<ContextMenu name="ДоступныеПоляПорядкаУправлениеПоискомКонтекстноеМеню" id="254"/>
 												<ExtendedTooltip name="ДоступныеПоляПорядкаУправлениеПоискомРасширеннаяПодсказка" id="255"/>
 											</SearchControlAddition>
@@ -789,26 +789,26 @@
 											<AutoCommandBar name="ПорядокКоманднаяПанель" id="77"/>
 											<ExtendedTooltip name="ПорядокРасширеннаяПодсказка" id="256"/>
 											<SearchStringAddition name="ПорядокСтрокаПоиска" id="257">
-												<Source>
-													<lf:elementId>75</lf:elementId>
-													<lf:additionId>0</lf:additionId>
-												</Source>
+												<AdditionSource>
+													<Item>Порядок</Item>
+													<Type>SearchStringRepresentation</Type>
+												</AdditionSource>
 												<ContextMenu name="ПорядокСтрокаПоискаКонтекстноеМеню" id="258"/>
 												<ExtendedTooltip name="ПорядокСтрокаПоискаРасширеннаяПодсказка" id="259"/>
 											</SearchStringAddition>
 											<ViewStatusAddition name="ПорядокСостояниеПросмотра" id="260">
-												<Source>
-													<lf:elementId>75</lf:elementId>
-													<lf:additionId>1</lf:additionId>
-												</Source>
+												<AdditionSource>
+													<Item>Порядок</Item>
+													<Type>ViewStatusRepresentation</Type>
+												</AdditionSource>
 												<ContextMenu name="ПорядокСостояниеПросмотраКонтекстноеМеню" id="261"/>
 												<ExtendedTooltip name="ПорядокСостояниеПросмотраРасширеннаяПодсказка" id="262"/>
 											</ViewStatusAddition>
 											<SearchControlAddition name="ПорядокУправлениеПоиском" id="263">
-												<Source>
-													<lf:elementId>75</lf:elementId>
-													<lf:additionId>2</lf:additionId>
-												</Source>
+												<AdditionSource>
+													<Item>Порядок</Item>
+													<Type>SearchControl</Type>
+												</AdditionSource>
 												<ContextMenu name="ПорядокУправлениеПоискомКонтекстноеМеню" id="264"/>
 												<ExtendedTooltip name="ПорядокУправлениеПоискомРасширеннаяПодсказка" id="265"/>
 											</SearchControlAddition>
@@ -942,26 +942,26 @@
 											<AutoCommandBar name="УсловноеОформлениеКоманднаяПанель" id="95"/>
 											<ExtendedTooltip name="УсловноеОформлениеРасширеннаяПодсказка" id="276"/>
 											<SearchStringAddition name="УсловноеОформлениеСтрокаПоиска" id="277">
-												<Source>
-													<lf:elementId>93</lf:elementId>
-													<lf:additionId>0</lf:additionId>
-												</Source>
+												<AdditionSource>
+													<Item>УсловноеОформление</Item>
+													<Type>SearchStringRepresentation</Type>
+												</AdditionSource>
 												<ContextMenu name="УсловноеОформлениеСтрокаПоискаКонтекстноеМеню" id="278"/>
 												<ExtendedTooltip name="УсловноеОформлениеСтрокаПоискаРасширеннаяПодсказка" id="279"/>
 											</SearchStringAddition>
 											<ViewStatusAddition name="УсловноеОформлениеСостояниеПросмотра" id="280">
-												<Source>
-													<lf:elementId>93</lf:elementId>
-													<lf:additionId>1</lf:additionId>
-												</Source>
+												<AdditionSource>
+													<Item>УсловноеОформление</Item>
+													<Type>ViewStatusRepresentation</Type>
+												</AdditionSource>
 												<ContextMenu name="УсловноеОформлениеСостояниеПросмотраКонтекстноеМеню" id="281"/>
 												<ExtendedTooltip name="УсловноеОформлениеСостояниеПросмотраРасширеннаяПодсказка" id="282"/>
 											</ViewStatusAddition>
 											<SearchControlAddition name="УсловноеОформлениеУправлениеПоиском" id="283">
-												<Source>
-													<lf:elementId>93</lf:elementId>
-													<lf:additionId>2</lf:additionId>
-												</Source>
+												<AdditionSource>
+													<Item>УсловноеОформление</Item>
+													<Type>SearchControl</Type>
+												</AdditionSource>
 												<ContextMenu name="УсловноеОформлениеУправлениеПоискомКонтекстноеМеню" id="284"/>
 												<ExtendedTooltip name="УсловноеОформлениеУправлениеПоискомРасширеннаяПодсказка" id="285"/>
 											</SearchControlAddition>
@@ -1094,26 +1094,26 @@
 											<AutoCommandBar name="ПараметрыВыводаКоманднаяПанель" id="113"/>
 											<ExtendedTooltip name="ПараметрыВыводаРасширеннаяПодсказка" id="296"/>
 											<SearchStringAddition name="ПараметрыВыводаСтрокаПоиска" id="297">
-												<Source>
-													<lf:elementId>111</lf:elementId>
-													<lf:additionId>0</lf:additionId>
-												</Source>
+												<AdditionSource>
+													<Item>ПараметрыВывода</Item>
+													<Type>SearchStringRepresentation</Type>
+												</AdditionSource>
 												<ContextMenu name="ПараметрыВыводаСтрокаПоискаКонтекстноеМеню" id="298"/>
 												<ExtendedTooltip name="ПараметрыВыводаСтрокаПоискаРасширеннаяПодсказка" id="299"/>
 											</SearchStringAddition>
 											<ViewStatusAddition name="ПараметрыВыводаСостояниеПросмотра" id="300">
-												<Source>
-													<lf:elementId>111</lf:elementId>
-													<lf:additionId>1</lf:additionId>
-												</Source>
+												<AdditionSource>
+													<Item>ПараметрыВывода</Item>
+													<Type>ViewStatusRepresentation</Type>
+												</AdditionSource>
 												<ContextMenu name="ПараметрыВыводаСостояниеПросмотраКонтекстноеМеню" id="301"/>
 												<ExtendedTooltip name="ПараметрыВыводаСостояниеПросмотраРасширеннаяПодсказка" id="302"/>
 											</ViewStatusAddition>
 											<SearchControlAddition name="ПараметрыВыводаУправлениеПоиском" id="303">
-												<Source>
-													<lf:elementId>111</lf:elementId>
-													<lf:additionId>2</lf:additionId>
-												</Source>
+												<AdditionSource>
+													<Item>ПараметрыВывода</Item>
+													<Type>SearchControl</Type>
+												</AdditionSource>
 												<ContextMenu name="ПараметрыВыводаУправлениеПоискомКонтекстноеМеню" id="304"/>
 												<ExtendedTooltip name="ПараметрыВыводаУправлениеПоискомРасширеннаяПодсказка" id="305"/>
 											</SearchControlAddition>

@@ -1377,7 +1377,6 @@
 				</dcsset:item>
 			</dcsset:selection>
 			<dcsset:item xsi:type="dcsset:StructureItemTable">
-				<dcsset:use>false</dcsset:use>
 				<dcsset:column>
 					<dcsset:groupItems>
 						<dcsset:item xsi:type="dcsset:GroupItemField">
@@ -1425,7 +1424,6 @@
 				</dcsset:outputParameters>
 			</dcsset:item>
 			<dcsset:item xsi:type="dcsset:StructureItemGroup">
-				<dcsset:use>false</dcsset:use>
 				<dcsset:groupItems>
 					<dcsset:item xsi:type="dcsset:GroupItemField">
 						<dcsset:field>Номенклатура</dcsset:field>
@@ -1454,7 +1452,6 @@
 				</dcsset:outputParameters>
 			</dcsset:item>
 			<dcsset:item xsi:type="dcsset:StructureItemTable">
-				<dcsset:use>false</dcsset:use>
 				<dcsset:column>
 					<dcsset:name>МакетГруппировки_Колонка_Заголовок</dcsset:name>
 					<dcsset:groupItems>
@@ -1504,7 +1501,6 @@
 				</dcsset:outputParameters>
 			</dcsset:item>
 			<dcsset:item xsi:type="dcsset:StructureItemGroup">
-				<dcsset:use>false</dcsset:use>
 				<dcsset:name>МакетГруппировки_Группировка_Заголовок</dcsset:name>
 				<dcsset:groupItems>
 					<dcsset:item xsi:type="dcsset:GroupItemField">
@@ -1534,7 +1530,6 @@
 				</dcsset:outputParameters>
 			</dcsset:item>
 			<dcsset:item xsi:type="dcsset:StructureItemTable">
-				<dcsset:use>false</dcsset:use>
 				<dcsset:column>
 					<dcsset:name>МакетГруппировки_Колонка_Подвал</dcsset:name>
 					<dcsset:groupItems>
@@ -1584,7 +1579,6 @@
 				</dcsset:outputParameters>
 			</dcsset:item>
 			<dcsset:item xsi:type="dcsset:StructureItemGroup">
-				<dcsset:use>false</dcsset:use>
 				<dcsset:name>МакетГруппировки_Группировка_Подвал</dcsset:name>
 				<dcsset:groupItems>
 					<dcsset:item xsi:type="dcsset:GroupItemField">
@@ -1614,7 +1608,6 @@
 				</dcsset:outputParameters>
 			</dcsset:item>
 			<dcsset:item xsi:type="dcsset:StructureItemTable">
-				<dcsset:use>false</dcsset:use>
 				<dcsset:column>
 					<dcsset:name>МакетГруппировки_Колонка_ОбщийИтогЗаголовок</dcsset:name>
 					<dcsset:groupItems>
@@ -1664,7 +1657,6 @@
 				</dcsset:outputParameters>
 			</dcsset:item>
 			<dcsset:item xsi:type="dcsset:StructureItemGroup">
-				<dcsset:use>false</dcsset:use>
 				<dcsset:name>МакетГруппировки_Группировка_ОбщийИтогЗаголовок</dcsset:name>
 				<dcsset:groupItems>
 					<dcsset:item xsi:type="dcsset:GroupItemField">
@@ -1694,7 +1686,6 @@
 				</dcsset:outputParameters>
 			</dcsset:item>
 			<dcsset:item xsi:type="dcsset:StructureItemTable">
-				<dcsset:use>false</dcsset:use>
 				<dcsset:column>
 					<dcsset:name>МакетГруппировки_Колонка_ОбщийИтогПодвал</dcsset:name>
 					<dcsset:groupItems>
@@ -1744,7 +1735,6 @@
 				</dcsset:outputParameters>
 			</dcsset:item>
 			<dcsset:item xsi:type="dcsset:StructureItemGroup">
-				<dcsset:use>false</dcsset:use>
 				<dcsset:name>МакетГруппировки_Группировка_ОбщийИтогПодвал</dcsset:name>
 				<dcsset:groupItems>
 					<dcsset:item xsi:type="dcsset:GroupItemField">
@@ -1774,7 +1764,6 @@
 				</dcsset:outputParameters>
 			</dcsset:item>
 			<dcsset:item xsi:type="dcsset:StructureItemTable">
-				<dcsset:use>false</dcsset:use>
 				<dcsset:column>
 					<dcsset:name>МакетЗаголовкаГруппировки_Колонка_Заголовок</dcsset:name>
 					<dcsset:groupItems>
@@ -1824,7 +1813,6 @@
 				</dcsset:outputParameters>
 			</dcsset:item>
 			<dcsset:item xsi:type="dcsset:StructureItemGroup">
-				<dcsset:use>false</dcsset:use>
 				<dcsset:name>МакетЗаголовкаГруппировки_Группировка_Заголовок</dcsset:name>
 				<dcsset:groupItems>
 					<dcsset:item xsi:type="dcsset:GroupItemField">
@@ -1854,7 +1842,6 @@
 				</dcsset:outputParameters>
 			</dcsset:item>
 			<dcsset:item xsi:type="dcsset:StructureItemTable">
-				<dcsset:use>false</dcsset:use>
 				<dcsset:column>
 					<dcsset:name>МакетЗаголовкаГруппировки_Колонка_Подвал</dcsset:name>
 					<dcsset:groupItems>
@@ -1904,7 +1891,6 @@
 				</dcsset:outputParameters>
 			</dcsset:item>
 			<dcsset:item xsi:type="dcsset:StructureItemGroup">
-				<dcsset:use>false</dcsset:use>
 				<dcsset:name>МакетЗаголовкаГруппировки_Группировка_Подвал</dcsset:name>
 				<dcsset:groupItems>
 					<dcsset:item xsi:type="dcsset:GroupItemField">
@@ -1934,7 +1920,6 @@
 				</dcsset:outputParameters>
 			</dcsset:item>
 			<dcsset:item xsi:type="dcsset:StructureItemTable">
-				<dcsset:use>false</dcsset:use>
 				<dcsset:column>
 					<dcsset:name>МакетЗаголовкаГруппировки_Колонка_ОбщийИтогЗаголовок</dcsset:name>
 					<dcsset:groupItems>
@@ -1984,7 +1969,6 @@
 				</dcsset:outputParameters>
 			</dcsset:item>
 			<dcsset:item xsi:type="dcsset:StructureItemGroup">
-				<dcsset:use>false</dcsset:use>
 				<dcsset:name>МакетЗаголовкаГруппировки_Группировка_ОбщийИтогЗаголовок</dcsset:name>
 				<dcsset:groupItems>
 					<dcsset:item xsi:type="dcsset:GroupItemField">
@@ -2014,7 +1998,6 @@
 				</dcsset:outputParameters>
 			</dcsset:item>
 			<dcsset:item xsi:type="dcsset:StructureItemTable">
-				<dcsset:use>false</dcsset:use>
 				<dcsset:column>
 					<dcsset:name>МакетЗаголовкаГруппировки_Колонка_ОбщийИтогПодвал</dcsset:name>
 					<dcsset:groupItems>
@@ -2064,7 +2047,6 @@
 				</dcsset:outputParameters>
 			</dcsset:item>
 			<dcsset:item xsi:type="dcsset:StructureItemGroup">
-				<dcsset:use>false</dcsset:use>
 				<dcsset:name>МакетЗаголовкаГруппировки_Группировка_ОбщийИтогПодвал</dcsset:name>
 				<dcsset:groupItems>
 					<dcsset:item xsi:type="dcsset:GroupItemField">

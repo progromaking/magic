@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
 	<AutoTitle>false</AutoTitle>
 	<VerticalScroll>useIfNecessary</VerticalScroll>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
@@ -9,7 +9,6 @@
 				<Type>CommandBarButton</Type>
 				<Representation>PictureAndText</Representation>
 				<CommandName>Form.Command.КомандаЗагрузитьТестовыйНабор</CommandName>
-				<Parameter xsi:nil="true"/>
 				<Picture>
 					<xr:Abs>Picture.png</xr:Abs>
 					<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -59,13 +58,11 @@
 							<Button name="КомандаЗагрузитьТестыИзКонфигурации" id="76">
 								<Type>CommandBarButton</Type>
 								<CommandName>Form.Command.КомандаЗагрузитьТестыИзКонфигурации</CommandName>
-								<Parameter xsi:nil="true"/>
 								<ExtendedTooltip name="КомандаЗагрузитьТестыИзКонфигурацииРасширеннаяПодсказка" id="360"/>
 							</Button>
 							<Button name="КомандаЗагрузитьТестыИзКонфигурацииПоИмени" id="79">
 								<Type>CommandBarButton</Type>
 								<CommandName>Form.Command.КомандаЗагрузитьТестыИзКонфигурацииПоИмени</CommandName>
-								<Parameter xsi:nil="true"/>
 								<ExtendedTooltip name="КомандаЗагрузитьТестыИзКонфигурацииПоИмениРасширеннаяПодсказка" id="361"/>
 							</Button>
 						</ChildItems>
@@ -88,7 +85,6 @@
 							<Button name="КомандаЗагрузитьТестовыйНабор" id="28">
 								<Type>CommandBarButton</Type>
 								<CommandName>Form.Command.КомандаЗагрузитьТестовыйНабор</CommandName>
-								<Parameter xsi:nil="true"/>
 								<Title>
 									<v8:item>
 										<v8:lang>ru</v8:lang>
@@ -100,7 +96,6 @@
 							<Button name="КомандаЗагрузитьТестовыеСлучаи" id="29">
 								<Type>CommandBarButton</Type>
 								<CommandName>Form.Command.КомандаЗагрузитьТестовыеСлучаи</CommandName>
-								<Parameter xsi:nil="true"/>
 								<ExtendedTooltip name="КомандаЗагрузитьТестовыеСлучаиРасширеннаяПодсказка" id="364"/>
 							</Button>
 						</ChildItems>
@@ -108,19 +103,16 @@
 					<Button name="КомандаРегистрацияПрохожденияТестовВЖР" id="134">
 						<Type>CommandBarButton</Type>
 						<CommandName>Form.Command.КомандаРегистрацияПрохожденияТестовВЖР</CommandName>
-						<Parameter xsi:nil="true"/>
 						<ExtendedTooltip name="КомандаРегистрацияПрохожденияТестовВЖРРасширеннаяПодсказка" id="365"/>
 					</Button>
 					<Button name="КомандаРегистрацияОшибокТестовВЖР" id="135">
 						<Type>CommandBarButton</Type>
 						<CommandName>Form.Command.КомандаРегистрацияОшибокТестовВЖР</CommandName>
-						<Parameter xsi:nil="true"/>
 						<ExtendedTooltip name="КомандаРегистрацияОшибокТестовВЖРРасширеннаяПодсказка" id="366"/>
 					</Button>
 					<Button name="КомандаВключитьРежимОтладки" id="139">
 						<Type>CommandBarButton</Type>
 						<CommandName>Form.Command.КомандаВключитьРежимОтладки</CommandName>
-						<Parameter xsi:nil="true"/>
 						<Title>
 							<v8:item>
 								<v8:lang>ru</v8:lang>
@@ -132,7 +124,6 @@
 					<Button name="КомандаСлучайныйПорядокВыполнения" id="190">
 						<Type>CommandBarButton</Type>
 						<CommandName>Form.Command.КомандаВыполнятьТестыВСлучайномПорядке</CommandName>
-						<Parameter xsi:nil="true"/>
 						<ExtendedTooltip name="КомандаСлучайныйПорядокВыполненияРасширеннаяПодсказка" id="368"/>
 					</Button>
 					<ButtonGroup name="ИсторияВыбораМест" id="242">
@@ -170,7 +161,6 @@
 			<Button name="КомандаПерезагрузитьТесты" id="31">
 				<Type>CommandBarButton</Type>
 				<CommandName>Form.Command.КомандаПерезагрузитьВсеТесты</CommandName>
-				<Parameter xsi:nil="true"/>
 				<Picture>
 					<xr:Abs>Picture.png</xr:Abs>
 					<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -180,7 +170,6 @@
 			<Button name="КомандаВыполнитьВсеТесты" id="30">
 				<Type>CommandBarButton</Type>
 				<CommandName>Form.Command.КомандаВыполнитьВсеТесты</CommandName>
-				<Parameter xsi:nil="true"/>
 				<Picture>
 					<xr:Abs>Picture.png</xr:Abs>
 					<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -191,7 +180,6 @@
 				<Type>CommandBarButton</Type>
 				<DefaultButton>true</DefaultButton>
 				<CommandName>Form.Command.КомандаВыполнитьВыделенныеТесты</CommandName>
-				<Parameter xsi:nil="true"/>
 				<ExtendedTooltip name="ФормаКомандаВыполнитьВыделенныеТестыРасширеннаяПодсказка" id="373"/>
 			</Button>
 			<Popup name="ГруппаВнешниеИнструменты" id="126">
@@ -213,13 +201,11 @@
 					<Button name="КомандаГенераторМакетовДанных" id="71">
 						<Type>CommandBarButton</Type>
 						<CommandName>Form.Command.ГенераторМакетовДанных</CommandName>
-						<Parameter xsi:nil="true"/>
 						<ExtendedTooltip name="КомандаГенераторМакетовДанныхРасширеннаяПодсказка" id="375"/>
 					</Button>
 					<Button name="КомандаПоказатьГУИД" id="73">
 						<Type>CommandBarButton</Type>
 						<CommandName>Form.Command.ПоказатьГУИД</CommandName>
-						<Parameter xsi:nil="true"/>
 						<ExtendedTooltip name="КомандаПоказатьГУИДРасширеннаяПодсказка" id="376"/>
 					</Button>
 					<ButtonGroup name="ГруппаОПроекте" id="128">
@@ -240,7 +226,6 @@
 							<Button name="КомандаОПроекте" id="70">
 								<Type>CommandBarButton</Type>
 								<CommandName>Form.Command.ОПроекте</CommandName>
-								<Parameter xsi:nil="true"/>
 								<ExtendedTooltip name="КомандаОПроектеРасширеннаяПодсказка" id="378"/>
 							</Button>
 						</ChildItems>
@@ -251,13 +236,11 @@
 				<Type>CommandBarButton</Type>
 				<Representation>PictureAndText</Representation>
 				<CommandName>Form.Command.КомандаПерезагрузитьФорму</CommandName>
-				<Parameter xsi:nil="true"/>
 				<ExtendedTooltip name="ФормаКомандаПерезагрузитьФормуРасширеннаяПодсказка" id="379"/>
 			</Button>
 			<Button name="ФормаИзменитьФорму" id="356">
 				<Type>CommandBarButton</Type>
 				<CommandName>Form.StandardCommand.CustomizeForm</CommandName>
-				<Parameter xsi:nil="true"/>
 				<ExtendedTooltip name="ФормаИзменитьФормуРасширеннаяПодсказка" id="380"/>
 			</Button>
 		</ChildItems>
@@ -350,7 +333,6 @@
 							<Button name="ДеревоТестовКонтекстноеМенюКомандаВыполнитьВыделенныеТесты" id="39">
 								<Type>CommandBarButton</Type>
 								<CommandName>Form.Command.КомандаВыполнитьВыделенныеТесты</CommandName>
-								<Parameter xsi:nil="true"/>
 								<Picture>
 									<xr:Abs>Picture.png</xr:Abs>
 									<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -360,19 +342,16 @@
 							<Button name="ДеревоТестовКонтекстноеМенюЗагрузитьТолькоВыделенныеТесты" id="80">
 								<Type>CommandBarButton</Type>
 								<CommandName>Form.Command.КомандаЗагрузитьТолькоВыделенныеТесты</CommandName>
-								<Parameter xsi:nil="true"/>
 								<ExtendedTooltip name="ДеревоТестовКонтекстноеМенюЗагрузитьТолькоВыделенныеТестыРасширеннаяПодсказка" id="385"/>
 							</Button>
 							<Button name="ДеревоТестовКонтекстноеМенюКомандаВыполнитьВыделенныеТестыСИсключением" id="189">
 								<Type>CommandBarButton</Type>
 								<CommandName>Form.Command.КомандаВыполнитьВыделенныеТестыСИсключением</CommandName>
-								<Parameter xsi:nil="true"/>
 								<ExtendedTooltip name="ДеревоТестовКонтекстноеМенюКомандаВыполнитьВыделенныеТестыСИсключениемРасширеннаяПодсказка" id="386"/>
 							</Button>
 							<Button name="ДеревоТестовКонтекстноеМенюПоказатьОшибки" id="300">
 								<Type>CommandBarButton</Type>
 								<CommandName>Form.Command.ПоказатьОшибки</CommandName>
-								<Parameter xsi:nil="true"/>
 								<ExtendedTooltip name="ДеревоТестовКонтекстноеМенюПоказатьОшибкиРасширеннаяПодсказка" id="387"/>
 							</Button>
 						</ChildItems>
@@ -382,26 +361,26 @@
 					</AutoCommandBar>
 					<ExtendedTooltip name="ДеревоТестовРасширеннаяПодсказка" id="388"/>
 					<SearchStringAddition name="ДеревоТестовСтрокаПоиска" id="389">
-						<Source>
-							<lf:elementId>1</lf:elementId>
-							<lf:additionId>0</lf:additionId>
-						</Source>
+						<AdditionSource>
+							<Item>ДеревоТестов</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
 						<ContextMenu name="ДеревоТестовСтрокаПоискаКонтекстноеМеню" id="390"/>
 						<ExtendedTooltip name="ДеревоТестовСтрокаПоискаРасширеннаяПодсказка" id="391"/>
 					</SearchStringAddition>
 					<ViewStatusAddition name="ДеревоТестовСостояниеПросмотра" id="392">
-						<Source>
-							<lf:elementId>1</lf:elementId>
-							<lf:additionId>1</lf:additionId>
-						</Source>
+						<AdditionSource>
+							<Item>ДеревоТестов</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
 						<ContextMenu name="ДеревоТестовСостояниеПросмотраКонтекстноеМеню" id="393"/>
 						<ExtendedTooltip name="ДеревоТестовСостояниеПросмотраРасширеннаяПодсказка" id="394"/>
 					</ViewStatusAddition>
 					<SearchControlAddition name="ДеревоТестовУправлениеПоиском" id="395">
-						<Source>
-							<lf:elementId>1</lf:elementId>
-							<lf:additionId>2</lf:additionId>
-						</Source>
+						<AdditionSource>
+							<Item>ДеревоТестов</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
 						<ContextMenu name="ДеревоТестовУправлениеПоискомКонтекстноеМеню" id="396"/>
 						<ExtendedTooltip name="ДеревоТестовУправлениеПоискомРасширеннаяПодсказка" id="397"/>
 					</SearchControlAddition>
@@ -562,9 +541,9 @@
 			</Type>
 			<MainAttribute>true</MainAttribute>
 			<Save>
-				<Field>Объект.РегистрацияПрохожденияТестовВЖР</Field>
 				<Field>Объект.СлучайныйПорядокВыполнения</Field>
 				<Field>Объект.РежимОтладки</Field>
+				<Field>Объект.РегистрацияПрохожденияТестовВЖР</Field>
 				<Field>Объект.РегистрацияОшибокТестовВЖР</Field>
 			</Save>
 			<Columns>

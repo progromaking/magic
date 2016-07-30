@@ -1,18 +1,16 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
 		<ChildItems>
 			<Button name="ФормаОтобразить" id="60">
 				<Type>CommandBarButton</Type>
 				<CommandName>Form.Command.Отобразить</CommandName>
-				<Parameter xsi:nil="true"/>
 				<ExtendedTooltip name="ФормаОтобразитьРасширеннаяПодсказка" id="61"/>
 			</Button>
 			<Button name="ФормаПрименить" id="62">
 				<Type>CommandBarButton</Type>
 				<CommandName>Form.Command.Применить</CommandName>
-				<Parameter xsi:nil="true"/>
 				<ExtendedTooltip name="ФормаПрименитьРасширеннаяПодсказка" id="63"/>
 			</Button>
 		</ChildItems>
@@ -61,26 +59,26 @@
 							<AutoCommandBar name="ТабличнаяЧасть1КоманднаяПанель" id="7"/>
 							<ExtendedTooltip name="ТабличнаяЧасть1РасширеннаяПодсказка" id="8"/>
 							<SearchStringAddition name="ТабличнаяЧасть1СтрокаПоиска" id="9">
-								<Source>
-									<lf:elementId>5</lf:elementId>
-									<lf:additionId>0</lf:additionId>
-								</Source>
+								<AdditionSource>
+									<Item>ТабличнаяЧасть1</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
 								<ContextMenu name="ТабличнаяЧасть1СтрокаПоискаКонтекстноеМеню" id="10"/>
 								<ExtendedTooltip name="ТабличнаяЧасть1СтрокаПоискаРасширеннаяПодсказка" id="11"/>
 							</SearchStringAddition>
 							<ViewStatusAddition name="ТабличнаяЧасть1СостояниеПросмотра" id="12">
-								<Source>
-									<lf:elementId>5</lf:elementId>
-									<lf:additionId>1</lf:additionId>
-								</Source>
+								<AdditionSource>
+									<Item>ТабличнаяЧасть1</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
 								<ContextMenu name="ТабличнаяЧасть1СостояниеПросмотраКонтекстноеМеню" id="13"/>
 								<ExtendedTooltip name="ТабличнаяЧасть1СостояниеПросмотраРасширеннаяПодсказка" id="14"/>
 							</ViewStatusAddition>
 							<SearchControlAddition name="ТабличнаяЧасть1УправлениеПоиском" id="15">
-								<Source>
-									<lf:elementId>5</lf:elementId>
-									<lf:additionId>2</lf:additionId>
-								</Source>
+								<AdditionSource>
+									<Item>ТабличнаяЧасть1</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
 								<ContextMenu name="ТабличнаяЧасть1УправлениеПоискомКонтекстноеМеню" id="16"/>
 								<ExtendedTooltip name="ТабличнаяЧасть1УправлениеПоискомРасширеннаяПодсказка" id="17"/>
 							</SearchControlAddition>
@@ -139,26 +137,26 @@
 							<AutoCommandBar name="ИдентификаторыКолонокКоманднаяПанель" id="34"/>
 							<ExtendedTooltip name="ИдентификаторыКолонокРасширеннаяПодсказка" id="35"/>
 							<SearchStringAddition name="ИдентификаторыКолонокСтрокаПоиска" id="36">
-								<Source>
-									<lf:elementId>32</lf:elementId>
-									<lf:additionId>0</lf:additionId>
-								</Source>
+								<AdditionSource>
+									<Item>ИдентификаторыКолонок</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
 								<ContextMenu name="ИдентификаторыКолонокСтрокаПоискаКонтекстноеМеню" id="37"/>
 								<ExtendedTooltip name="ИдентификаторыКолонокСтрокаПоискаРасширеннаяПодсказка" id="38"/>
 							</SearchStringAddition>
 							<ViewStatusAddition name="ИдентификаторыКолонокСостояниеПросмотра" id="39">
-								<Source>
-									<lf:elementId>32</lf:elementId>
-									<lf:additionId>1</lf:additionId>
-								</Source>
+								<AdditionSource>
+									<Item>ИдентификаторыКолонок</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
 								<ContextMenu name="ИдентификаторыКолонокСостояниеПросмотраКонтекстноеМеню" id="40"/>
 								<ExtendedTooltip name="ИдентификаторыКолонокСостояниеПросмотраРасширеннаяПодсказка" id="41"/>
 							</ViewStatusAddition>
 							<SearchControlAddition name="ИдентификаторыКолонокУправлениеПоиском" id="42">
-								<Source>
-									<lf:elementId>32</lf:elementId>
-									<lf:additionId>2</lf:additionId>
-								</Source>
+								<AdditionSource>
+									<Item>ИдентификаторыКолонок</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
 								<ContextMenu name="ИдентификаторыКолонокУправлениеПоискомКонтекстноеМеню" id="43"/>
 								<ExtendedTooltip name="ИдентификаторыКолонокУправлениеПоискомРасширеннаяПодсказка" id="44"/>
 							</SearchControlAddition>
@@ -191,26 +189,26 @@
 							<AutoCommandBar name="ОтображениеКоманднаяПанель" id="49"/>
 							<ExtendedTooltip name="ОтображениеРасширеннаяПодсказка" id="50"/>
 							<SearchStringAddition name="ОтображениеСтрокаПоиска" id="51">
-								<Source>
-									<lf:elementId>47</lf:elementId>
-									<lf:additionId>0</lf:additionId>
-								</Source>
+								<AdditionSource>
+									<Item>Отображение</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
 								<ContextMenu name="ОтображениеСтрокаПоискаКонтекстноеМеню" id="52"/>
 								<ExtendedTooltip name="ОтображениеСтрокаПоискаРасширеннаяПодсказка" id="53"/>
 							</SearchStringAddition>
 							<ViewStatusAddition name="ОтображениеСостояниеПросмотра" id="54">
-								<Source>
-									<lf:elementId>47</lf:elementId>
-									<lf:additionId>1</lf:additionId>
-								</Source>
+								<AdditionSource>
+									<Item>Отображение</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
 								<ContextMenu name="ОтображениеСостояниеПросмотраКонтекстноеМеню" id="55"/>
 								<ExtendedTooltip name="ОтображениеСостояниеПросмотраРасширеннаяПодсказка" id="56"/>
 							</ViewStatusAddition>
 							<SearchControlAddition name="ОтображениеУправлениеПоиском" id="57">
-								<Source>
-									<lf:elementId>47</lf:elementId>
-									<lf:additionId>2</lf:additionId>
-								</Source>
+								<AdditionSource>
+									<Item>Отображение</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
 								<ContextMenu name="ОтображениеУправлениеПоискомКонтекстноеМеню" id="58"/>
 								<ExtendedTooltip name="ОтображениеУправлениеПоискомРасширеннаяПодсказка" id="59"/>
 							</SearchControlAddition>

@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
 	<CommandBarLocation>None</CommandBarLocation>
 	<ReportResult>Результат</ReportResult>
 	<DetailsData>ДанныеРасшифровки</DetailsData>
 	<ReportFormType>Main</ReportFormType>
 	<VariantAppearance/>
 	<AutoShowState>Auto</AutoShowState>
-	<CustomSettingsFolder xsi:type="xs:string">КомпоновщикНастроекПользовательскиеНастройки</CustomSettingsFolder>
+	<CustomSettingsFolder>КомпоновщикНастроекПользовательскиеНастройки</CustomSettingsFolder>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
 	</AutoCommandBar>
@@ -29,7 +29,6 @@
 					<Type>CommandBarButton</Type>
 					<OnlyInAllActions>true</OnlyInAllActions>
 					<CommandName>Form.Command.ИзменитьСКД</CommandName>
-					<Parameter xsi:nil="true"/>
 					<ExtendedTooltip name="ФормаИзменитьСКДРасширеннаяПодсказка" id="9"/>
 				</Button>
 			</ChildItems>
@@ -65,26 +64,26 @@
 					<AutoCommandBar name="ТаблицаПользовательскихНастроекКоманднаяПанель" id="12"/>
 					<ExtendedTooltip name="ТаблицаПользовательскихНастроекРасширеннаяПодсказка" id="13"/>
 					<SearchStringAddition name="ТаблицаПользовательскихНастроекСтрокаПоиска" id="14">
-						<Source>
-							<lf:elementId>10</lf:elementId>
-							<lf:additionId>0</lf:additionId>
-						</Source>
+						<AdditionSource>
+							<Item>ТаблицаПользовательскихНастроек</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
 						<ContextMenu name="ТаблицаПользовательскихНастроекСтрокаПоискаКонтекстноеМеню" id="15"/>
 						<ExtendedTooltip name="ТаблицаПользовательскихНастроекСтрокаПоискаРасширеннаяПодсказка" id="16"/>
 					</SearchStringAddition>
 					<ViewStatusAddition name="ТаблицаПользовательскихНастроекСостояниеПросмотра" id="17">
-						<Source>
-							<lf:elementId>10</lf:elementId>
-							<lf:additionId>1</lf:additionId>
-						</Source>
+						<AdditionSource>
+							<Item>ТаблицаПользовательскихНастроек</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
 						<ContextMenu name="ТаблицаПользовательскихНастроекСостояниеПросмотраКонтекстноеМеню" id="18"/>
 						<ExtendedTooltip name="ТаблицаПользовательскихНастроекСостояниеПросмотраРасширеннаяПодсказка" id="19"/>
 					</ViewStatusAddition>
 					<SearchControlAddition name="ТаблицаПользовательскихНастроекУправлениеПоиском" id="20">
-						<Source>
-							<lf:elementId>10</lf:elementId>
-							<lf:additionId>2</lf:additionId>
-						</Source>
+						<AdditionSource>
+							<Item>ТаблицаПользовательскихНастроек</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
 						<ContextMenu name="ТаблицаПользовательскихНастроекУправлениеПоискомКонтекстноеМеню" id="21"/>
 						<ExtendedTooltip name="ТаблицаПользовательскихНастроекУправлениеПоискомРасширеннаяПодсказка" id="22"/>
 					</SearchControlAddition>
