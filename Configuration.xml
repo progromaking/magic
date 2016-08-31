@@ -165,6 +165,7 @@
 			<CommonModule>РаботаСВнешнимиПрограммами</CommonModule>
 			<CommonModule>ПриемыРаботыСТиповымиКонфигурациями</CommonModule>
 			<CommonModule>ПриемыРазработки</CommonModule>
+			<CommonModule>РаботаСЧислами</CommonModule>
 			<CommonCommand>СтруктураПодчиненности</CommonCommand>
 			<CommonForm>СтруктураПодчиненности</CommonForm>
 			<Catalog>Справочник1</Catalog>
@@ -186,7 +187,8 @@
 			<DataProcessor>xddTestRunner</DataProcessor>
 			<DataProcessor>xddDecorator</DataProcessor>
 			<DataProcessor>xddQweryConsole</DataProcessor>
-			<DataProcessor>xddDataGenerator</DataProcessor>
+			<DataProcessor>xddDataLoader_new</DataProcessor>
+			<DataProcessor>xddDataDumper_new</DataProcessor>
 			<DataProcessor>xddMonitor</DataProcessor>
 			<DataProcessor>ПрограммнаяРаботаСИнтерфейсом</DataProcessor>
 			<DataProcessor>ОткрытиеФормыОбработки</DataProcessor>
@@ -203,6 +205,7 @@
 			<DataProcessor>ДиалогВыбораФайлов</DataProcessor>
 			<DataProcessor>ОбработкаСтрокТЧ</DataProcessor>
 			<DataProcessor>ПолезныеЯрлыкиИПрограммы</DataProcessor>
+			<DataProcessor>ВыгрузкаЗагрузкаПоПравилам</DataProcessor>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
