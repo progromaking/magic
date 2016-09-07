@@ -23,6 +23,7 @@
 				<dcscor:value xsi:type="xs:boolean">true</dcscor:value>
 			</dcscor:item>
 		</inputParameters>
+		<denyIncompleteValues>true</denyIncompleteValues>
 		<use>Always</use>
 	</parameter>
 	<parameter>

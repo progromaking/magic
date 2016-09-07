@@ -183,6 +183,7 @@
 			<Report>СКД_ПериодВПараметре</Report>
 			<Report>СКД_РазностьСПредыдущейЗаписью</Report>
 			<Report>СКД_ВыборИзСпискаПараметра</Report>
+			<Report>СКД_ПроизвольнаяИерархия</Report>
 			<DataProcessor>xddEntryPoint</DataProcessor>
 			<DataProcessor>xddTestRunner</DataProcessor>
 			<DataProcessor>xddDecorator</DataProcessor>
