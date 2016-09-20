@@ -184,6 +184,7 @@
 			<Report>СКД_РазностьСПредыдущейЗаписью</Report>
 			<Report>СКД_ВыборИзСпискаПараметра</Report>
 			<Report>СКД_ПроизвольнаяИерархия</Report>
+			<Report>СКД_Расшифровка</Report>
 			<DataProcessor>xddEntryPoint</DataProcessor>
 			<DataProcessor>xddTestRunner</DataProcessor>
 			<DataProcessor>xddDecorator</DataProcessor>

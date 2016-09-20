@@ -541,9 +541,9 @@
 			</Type>
 			<MainAttribute>true</MainAttribute>
 			<Save>
+				<Field>Объект.РегистрацияПрохожденияТестовВЖР</Field>
 				<Field>Объект.СлучайныйПорядокВыполнения</Field>
 				<Field>Объект.РежимОтладки</Field>
-				<Field>Объект.РегистрацияПрохожденияТестовВЖР</Field>
 				<Field>Объект.РегистрацияОшибокТестовВЖР</Field>
 			</Save>
 			<Columns>
