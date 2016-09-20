@@ -1,29 +1,23 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
-	<Subsystem uuid="7f526bbb-d710-4dc5-adcf-505d7c51004d">
+	<CommonModule uuid="d2540358-1da5-494a-bc4b-079e3029d502">
 		<Properties>
-			<Name>xddTestTools</Name>
+			<Name>РаботаСЗапросами</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Инструменты тестирования</v8:content>
+					<v8:content>Работа с запросами</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
-			<IncludeHelpInContents>true</IncludeHelpInContents>
-			<IncludeInCommandInterface>true</IncludeInCommandInterface>
-			<Explanation/>
-			<Picture/>
-			<Content>
-				<xr:Item xsi:type="xr:MDObjectRef">527bfadb-beb8-429c-bf00-d74a3c30540c</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">eadf5060-136a-4f7a-af3d-e68adb1fe75e</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">5cb9a8f2-5379-45e0-b8c2-d4d467bf75c4</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">9b711c0d-8e7d-4792-9192-06414b659902</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">e1898468-05dd-4cfd-add1-e805872912bc</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">5396b836-5dd0-4cc6-9a49-c79f571f4e15</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">e600c8d4-3237-461a-b4f9-47310e192c3a</xr:Item>
-			</Content>
+			<Global>false</Global>
+			<ClientManagedApplication>false</ClientManagedApplication>
+			<Server>false</Server>
+			<ExternalConnection>false</ExternalConnection>
+			<ClientOrdinaryApplication>true</ClientOrdinaryApplication>
+			<ServerCall>false</ServerCall>
+			<Privileged>false</Privileged>
+			<ReturnValuesReuse>DontUse</ReturnValuesReuse>
 		</Properties>
-		<ChildObjects/>
-	</Subsystem>
+	</CommonModule>
 </MetaDataObject>
