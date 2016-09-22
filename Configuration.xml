@@ -185,6 +185,7 @@
 			<Report>СКД_ВыборИзСпискаПараметра</Report>
 			<Report>СКД_ПроизвольнаяИерархия</Report>
 			<Report>СКД_Расшифровка</Report>
+			<Report>СКД_СкрытьЗаголовокРесурса</Report>
 			<DataProcessor>xddEntryPoint</DataProcessor>
 			<DataProcessor>xddTestRunner</DataProcessor>
 			<DataProcessor>xddDecorator</DataProcessor>
