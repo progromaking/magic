@@ -15,12 +15,12 @@
 			<Explanation/>
 			<Picture/>
 			<Content>
-				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.xddEntryPoint</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.xddTestRunner</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.xddDecorator</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.xddQweryConsole</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.xddDataLoader_new</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.xddMonitor</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">527bfadb-beb8-429c-bf00-d74a3c30540c</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">eadf5060-136a-4f7a-af3d-e68adb1fe75e</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">5cb9a8f2-5379-45e0-b8c2-d4d467bf75c4</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">9b711c0d-8e7d-4792-9192-06414b659902</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">e1898468-05dd-4cfd-add1-e805872912bc</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">5396b836-5dd0-4cc6-9a49-c79f571f4e15</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">e600c8d4-3237-461a-b4f9-47310e192c3a</xr:Item>
 			</Content>
 		</Properties>

@@ -186,13 +186,6 @@
 			<Report>СКД_ПроизвольнаяИерархия</Report>
 			<Report>СКД_Расшифровка</Report>
 			<Report>СКД_СкрытьЗаголовокРесурса</Report>
-			<DataProcessor>xddEntryPoint</DataProcessor>
-			<DataProcessor>xddTestRunner</DataProcessor>
-			<DataProcessor>xddDecorator</DataProcessor>
-			<DataProcessor>xddQweryConsole</DataProcessor>
-			<DataProcessor>xddDataLoader_new</DataProcessor>
-			<DataProcessor>xddDataDumper_new</DataProcessor>
-			<DataProcessor>xddMonitor</DataProcessor>
 			<DataProcessor>ПрограммнаяРаботаСИнтерфейсом</DataProcessor>
 			<DataProcessor>ОткрытиеФормыОбработки</DataProcessor>
 			<DataProcessor>ОтображениеДанных</DataProcessor>
