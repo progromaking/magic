@@ -202,6 +202,7 @@
 			<DataProcessor>ОбработкаСтрокТЧ</DataProcessor>
 			<DataProcessor>ПолезныеЯрлыкиИПрограммы</DataProcessor>
 			<DataProcessor>ВыгрузкаЗагрузкаПоПравилам</DataProcessor>
+			<DataProcessor>ПередачаФайлаМеждуСерверомИКлиентом</DataProcessor>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
