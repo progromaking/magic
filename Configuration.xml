@@ -119,7 +119,6 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Subsystem>Тесты</Subsystem>
-			<Subsystem>xddTestTools</Subsystem>
 			<Subsystem>СтандартныеПодсистемы</Subsystem>
 			<CommonPicture>ДокументЗаписанКоннекторВерх</CommonPicture>
 			<CommonPicture>ДокументПомеченНаУдалениеКоннекторЛевоВерх</CommonPicture>
@@ -203,6 +202,7 @@
 			<DataProcessor>ПолезныеЯрлыкиИПрограммы</DataProcessor>
 			<DataProcessor>ВыгрузкаЗагрузкаПоПравилам</DataProcessor>
 			<DataProcessor>ПередачаФайлаМеждуСерверомИКлиентом</DataProcessor>
+			<AccumulationRegister>РегистрНакопления1</AccumulationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

@@ -86,7 +86,7 @@
 	<Attributes>
 		<Attribute name="Список" id="1">
 			<Type>
-				<v8:Type>cfg:DynamicList</v8:Type>
+				<v8:Type xmlns:dl="http://v8.1c.ru/8.2/managed-application/dynamic-list">dl:DynamicList</v8:Type>
 			</Type>
 			<MainAttribute>true</MainAttribute>
 			<Settings xsi:type="DynamicList">
