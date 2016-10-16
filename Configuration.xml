@@ -166,6 +166,7 @@
 			<CommonModule>ПриемыРаботыСТиповымиКонфигурациями</CommonModule>
 			<CommonModule>ПриемыРазработки</CommonModule>
 			<CommonModule>РаботаСЧислами</CommonModule>
+			<CommonModule>РаботаСВнешнимиОбработками</CommonModule>
 			<CommonCommand>СтруктураПодчиненности</CommonCommand>
 			<CommonForm>СтруктураПодчиненности</CommonForm>
 			<Catalog>Справочник1</Catalog>
@@ -177,7 +178,6 @@
 			<Report>СКД_ФиксированныйМакет</Report>
 			<Report>СКД_ВычислитьВыражение_ПоГруппировке</Report>
 			<Report>СКД_ПрограммноеСозданиеЭлементов</Report>
-			<Report>СКД_Консоль</Report>
 			<Report>СКД_СменаКомпоновкиДанных_УФ</Report>
 			<Report>СКД_ОткрытьОтчетИПередатьПараметры</Report>
 			<Report>СКД_ПериодВПараметре</Report>
@@ -196,9 +196,8 @@
 			<DataProcessor>РаботаСМетаданными</DataProcessor>
 			<DataProcessor>СтартерВнешнихОбработок</DataProcessor>
 			<DataProcessor>Использование_RegExp</DataProcessor>
-			<DataProcessor>СохранениеНастроекВФайл</DataProcessor>
-			<DataProcessor>ОткрытиеФормыВыбораСОтбором_УФ</DataProcessor>
 			<DataProcessor>ДиалогВыбораФайлов</DataProcessor>
+			<DataProcessor>ОткрытиеФормыВыбораСОтбором_УФ</DataProcessor>
 			<DataProcessor>ОбработкаСтрокТЧ</DataProcessor>
 			<DataProcessor>ПолезныеЯрлыкиИПрограммы</DataProcessor>
 			<DataProcessor>ВыгрузкаЗагрузкаПоПравилам</DataProcessor>
