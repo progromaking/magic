@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
-	<DataProcessor uuid="6c70a827-cfba-4ec6-aa28-116ce44b048f">
+	<DataProcessor uuid="7c4dcf78-86fa-4c0f-9039-e15bda7204b9">
 		<InternalInfo>
 			<xr:GeneratedType name="DataProcessorObject.ДиалогВыбораФайлов" category="Object">
-				<xr:TypeId>6b512d7f-77d5-42b1-b389-014819eb7ad7</xr:TypeId>
-				<xr:ValueId>0e22fb47-a7b4-49f3-a9f8-6c7f2acb3861</xr:ValueId>
+				<xr:TypeId>f525e614-ad60-410e-b33d-0f658adc41e9</xr:TypeId>
+				<xr:ValueId>81f37199-9824-453c-9e6c-fb57c161a824</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="DataProcessorManager.ДиалогВыбораФайлов" category="Manager">
-				<xr:TypeId>71d16c6c-d94f-4639-9510-319c7d89f2a5</xr:TypeId>
-				<xr:ValueId>62d35889-0768-4c85-acb2-99fc8784d18e</xr:ValueId>
+				<xr:TypeId>7948fd9b-dc2f-4d35-b866-011d4089e651</xr:TypeId>
+				<xr:ValueId>462ac725-d03e-44cc-8a53-f8a731002d4b</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -21,90 +21,15 @@
 			</Synonym>
 			<Comment/>
 			<UseStandardCommands>true</UseStandardCommands>
-			<DefaultForm>DataProcessor.ДиалогВыбораФайлов.Form.Форма</DefaultForm>
-			<AuxiliaryForm/>
+			<DefaultForm>DataProcessor.ДиалогВыбораФайлов.Form.ФормаОбычная</DefaultForm>
+			<AuxiliaryForm>DataProcessor.ДиалогВыбораФайлов.Form.ФормаУправляемая</AuxiliaryForm>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<ExtendedPresentation/>
 			<Explanation/>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="3f16f006-1699-4663-a1e5-e55a1fce360a">
-				<Properties>
-					<Name>ВыбираемыйКаталог</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Выбираемый каталог</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>0</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
-					</Type>
-					<PasswordMode>false</PasswordMode>
-					<Format/>
-					<EditFormat/>
-					<ToolTip/>
-					<MarkNegatives>false</MarkNegatives>
-					<Mask/>
-					<MultiLine>false</MultiLine>
-					<ExtendedEdit>false</ExtendedEdit>
-					<MinValue xsi:nil="true"/>
-					<MaxValue xsi:nil="true"/>
-					<FillChecking>DontCheck</FillChecking>
-					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-					<ChoiceParameterLinks/>
-					<ChoiceParameters/>
-					<QuickChoice>Auto</QuickChoice>
-					<CreateOnInput>Auto</CreateOnInput>
-					<ChoiceForm/>
-					<LinkByType/>
-					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="6cb88113-5e54-4259-82c5-8605e9528046">
-				<Properties>
-					<Name>ОткрываемыйФайл</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Открываемый файл</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>0</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
-					</Type>
-					<PasswordMode>false</PasswordMode>
-					<Format/>
-					<EditFormat/>
-					<ToolTip/>
-					<MarkNegatives>false</MarkNegatives>
-					<Mask/>
-					<MultiLine>false</MultiLine>
-					<ExtendedEdit>false</ExtendedEdit>
-					<MinValue xsi:nil="true"/>
-					<MaxValue xsi:nil="true"/>
-					<FillChecking>DontCheck</FillChecking>
-					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-					<ChoiceParameterLinks/>
-					<ChoiceParameters/>
-					<QuickChoice>Auto</QuickChoice>
-					<CreateOnInput>Auto</CreateOnInput>
-					<ChoiceForm/>
-					<LinkByType/>
-					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-				</Properties>
-			</Attribute>
-			<Form>Форма</Form>
+			<Form>ФормаОбычная</Form>
+			<Form>ФормаУправляемая</Form>
 		</ChildObjects>
 	</DataProcessor>
 </MetaDataObject>
