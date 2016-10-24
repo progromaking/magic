@@ -166,6 +166,7 @@
 			<CommonModule>ПриемыРазработки</CommonModule>
 			<CommonModule>РаботаСЧислами</CommonModule>
 			<CommonModule>РаботаСВнешнимиОбработками</CommonModule>
+			<CommonModule>ПриемыОтладки</CommonModule>
 			<CommonCommand>СтруктураПодчиненности</CommonCommand>
 			<CommonForm>СтруктураПодчиненности</CommonForm>
 			<Catalog>Справочник1</Catalog>
